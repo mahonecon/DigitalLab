@@ -1,0 +1,128 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -v 3 -s 3 -n 3 -fastpaths
+map.ncd UpDwnCounter.pcf -o UpDwnCounter_postmap.twr
+
+Design file:              map.ncd
+Physical constraint file: UpDwnCounter.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (ADVANCED 1.04 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |   -2.447(R)|      SLOW  |    3.066(R)|      FAST  |NET490            |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+digits<0>   |        10.896(R)|      SLOW  |         6.936(R)|      FAST  |NET490            |   0.000|
+digits<1>   |        11.017(R)|      SLOW  |         6.970(R)|      FAST  |NET490            |   0.000|
+digits<2>   |        12.153(R)|      SLOW  |         8.086(R)|      FAST  |NET490            |   0.000|
+digits<3>   |        12.070(R)|      SLOW  |         7.910(R)|      FAST  |NET490            |   0.000|
+display<0>  |        12.308(R)|      SLOW  |         8.271(R)|      FAST  |NET490            |   0.000|
+display<1>  |        12.284(R)|      SLOW  |         8.256(R)|      FAST  |NET490            |   0.000|
+display<2>  |        11.228(R)|      SLOW  |         7.250(R)|      FAST  |NET490            |   0.000|
+display<3>  |        11.714(R)|      SLOW  |         7.636(R)|      FAST  |NET490            |   0.000|
+display<4>  |        11.254(R)|      SLOW  |         7.226(R)|      FAST  |NET490            |   0.000|
+display<5>  |        12.416(R)|      SLOW  |         8.379(R)|      FAST  |NET490            |   0.000|
+display<6>  |        11.151(R)|      SLOW  |         7.195(R)|      FAST  |NET490            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock enable to Pad
+------------+-----------------+------------+-----------------+------------+------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                    | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                   | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------------------+--------+
+display<0>  |         9.647(F)|      SLOW  |         5.423(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<1>  |         9.670(F)|      SLOW  |         5.355(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<2>  |         8.775(F)|      SLOW  |         4.374(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<3>  |         9.251(F)|      SLOW  |         4.955(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<4>  |         8.728(F)|      SLOW  |         4.415(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<5>  |         9.739(F)|      SLOW  |         5.285(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<6>  |         9.021(F)|      SLOW  |         4.644(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------------------+--------+
+
+Clock upDwn to Pad
+------------+-----------------+------------+-----------------+------------+------------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                                    | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)                   | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------------------+--------+
+display<0>  |         9.640(F)|      SLOW  |         5.418(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<1>  |         9.663(F)|      SLOW  |         5.350(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<2>  |         8.768(F)|      SLOW  |         4.369(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<3>  |         9.244(F)|      SLOW  |         4.950(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<4>  |         8.721(F)|      SLOW  |         4.410(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<5>  |         9.732(F)|      SLOW  |         5.280(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+display<6>  |         9.014(F)|      SLOW  |         4.639(F)|      FAST  |U3/currentState[1]_PWR_11_o_Mux_13_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    2.297|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock enable
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+enable         |         |         |         |    1.672|
+upDwn          |         |         |         |    1.672|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock upDwn
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+enable         |         |         |         |    1.672|
+upDwn          |         |         |         |    1.672|
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Nov 14 20:32:58 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 632 MB
+
+
+

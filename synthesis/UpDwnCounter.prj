@@ -1,0 +1,6 @@
+vhdl UpDownFSM "..\src\UpDownFSM.vhd"
+vhdl UpDownFSM "..\compile\UpDwnCounter.vhd"
+vhdl UpDownFSM "..\src\dispmux.vhd"
+vhdl UpDownFSM "..\src\hexdisp.vhd"
+vhdl UpDownFSM "..\src\outMux.vhd"
+vhdl UpDownFSM "..\src\clock10hz.vhd"

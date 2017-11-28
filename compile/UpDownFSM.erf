@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: .\UpDwnCounter.vhd" 
+MESSAGE "Compile Entity "UpDwnCounter"" 
+MESSAGE "Compile Architecture "UpDwnCounter" of Entity "UpDwnCounter"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

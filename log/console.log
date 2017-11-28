@@ -1,0 +1,667 @@
+acom -reorder -O3 -work UpDownFSM -2002  $dsn/src/clk10hz.vhd
+# Compile with File Reorder...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\clk10hz.vhd
+# Compile Entity "clk_10hz"
+# Compile Architecture "behavioral" of Entity "clk_10hz"
+# Top-level unit(s) detected:
+# Entity => clk_10hz
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -work UpDownFSM -2002  $dsn/src/clk10hz.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\clk10hz.vhd
+# Compile Entity "clock_10hz"
+# Compile Architecture "behavioral" of Entity "clock_10hz"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/clk10hz.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\clk10hz.vhd
+# Compile Entity "clock_10hz"
+# Compile Architecture "behavioral" of Entity "clock_10hz"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDownFSM.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDownFSM.vhd
+# Compile Entity "UpDownCntr"
+# Error: COMP96_0018: UpDownFSM.vhd : (10, 1): Identifier expected.
+# Error: COMP96_0015: UpDownFSM.vhd : (10, 1): ')' expected.
+# Error: COMP96_0015: UpDownFSM.vhd : (10, 1): ';' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (10, 5): Keyword 'end' expected.
+# Compile Architecture "behavior" of Entity "UpDownCntr"
+# Error: COMP96_0029: UpDownFSM.vhd : (50, 19): Expression expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (67, 4): Keyword 'end' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (77, 5): Keyword 'if' expected.
+# Error: COMP96_0015: UpDownFSM.vhd : (77, 5): ';' expected.
+# Error: COMP96_0029: UpDownFSM.vhd : (77, 9): Expression expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (80, 5): Keyword 'case' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (85, 5): Keyword 'process' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (85, 26): Keyword 'end' expected.
+# Compile failure 12 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDownFSM.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDownFSM.vhd
+# Compile Entity "UpDownCntr"
+# Compile Architecture "behavior" of Entity "UpDownCntr"
+# Error: COMP96_0029: UpDownFSM.vhd : (50, 19): Expression expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (67, 4): Keyword 'end' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (77, 5): Keyword 'if' expected.
+# Error: COMP96_0015: UpDownFSM.vhd : (77, 5): ';' expected.
+# Error: COMP96_0029: UpDownFSM.vhd : (77, 9): Expression expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (80, 5): Keyword 'case' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (85, 5): Keyword 'process' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (85, 26): Keyword 'end' expected.
+# Compile failure 8 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDownFSM.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDownFSM.vhd
+# Compile Entity "UpDownCntr"
+# Compile Architecture "behavior" of Entity "UpDownCntr"
+# Error: COMP96_0019: UpDownFSM.vhd : (67, 4): Keyword 'end' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (77, 5): Keyword 'if' expected.
+# Error: COMP96_0015: UpDownFSM.vhd : (77, 5): ';' expected.
+# Error: COMP96_0029: UpDownFSM.vhd : (77, 9): Expression expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (80, 5): Keyword 'case' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (85, 5): Keyword 'process' expected.
+# Error: COMP96_0019: UpDownFSM.vhd : (85, 26): Keyword 'end' expected.
+# Compile failure 7 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDownFSM.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDownFSM.vhd
+# Compile Entity "UpDownCntr"
+# Compile Architecture "behavior" of Entity "UpDownCntr"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/clock10hz.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\clock10hz.vhd
+# Compile Entity "clock_10hz"
+# Compile Architecture "behavioral" of Entity "clock_10hz"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCounter.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde'.
+# DRC: Warning: UpDwnCounter.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\compile\UpDwnCounter.vhd from c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\UpDwnCounter.vhd
+# Compile Entity "UpDwnCounter"
+# Compile Architecture "UpDwnCounter" of Entity "UpDwnCounter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/clock10hz.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\clock10hz.vhd
+# Compile Entity "clock_10hz"
+# Compile Architecture "behavioral" of Entity "clock_10hz"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (83, 2): Unknown identifier "upDwn".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (83, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (83, 2): "upDwn" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (83, 2): Unknown identifier "upDwn".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (83, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (83, 2): "upDwn" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (84, 2): Unknown identifier "upDwn".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (84, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (84, 2): "upDwn" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (84, 2): Unknown identifier "upDwn".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (84, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (84, 2): "upDwn" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (84, 2): Unknown identifier "upDwn".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (84, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (84, 2): "upDwn" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (84, 2): Unknown identifier "upDwn".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (84, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (84, 2): "upDwn" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (84, 2): Unknown identifier "upDwn".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (84, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (84, 2): "upDwn" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCounter.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde'.
+# DRC: UpDwnCounter.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\compile\UpDwnCounter.vhd from c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\UpDwnCounter.vhd
+# Compile Entity "UpDwnCounter"
+# Compile Architecture "UpDwnCounter" of Entity "UpDwnCounter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+clk_10hz clk_10hz behavioral
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6977 kB (elbread=1023 elab2=5804 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\src\wave.asdb
+#  7:43 PM, Tuesday, November 14, 2017
+#  Simulation has been initialized
+#  Selected Top-Level: clk_10hz (behavioral)
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+asim +access +r -advdataflow UpDwnCntr_TB
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6985 kB (elbread=1023 elab2=5811 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\src\wave.asdb
+#  7:44 PM, Tuesday, November 14, 2017
+#  Simulation has been initialized
+#  Selected Top-Level: UpDwnCntr_TB (BENCH)
+wave
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/src/wave.asdb'.
+wave  /UpDwnCntr_TB/*
+# 5 signal(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCounter.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde'.
+# DRC: Warning: UpDwnCounter.bde - 0 error(s), 1 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\compile\UpDwnCounter.vhd from c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\UpDwnCounter.vhd
+# Compile Entity "UpDwnCounter"
+# Compile Architecture "UpDwnCounter" of Entity "UpDwnCounter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+UpDwnCntr_TB UpDwnCntr_TB BENCH
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'updownfsm.updwncounter' instantiated in architecture 'BENCH:UpDwnCntr_TB' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# Error: asim: cannot select specified top-level
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim +access +r -advdataflow UpDwnCntr_TB
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6985 kB (elbread=1023 elab2=5811 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\src\wave.asdb
+#  7:45 PM, Tuesday, November 14, 2017
+#  Simulation has been initialized
+#  Selected Top-Level: UpDwnCntr_TB (BENCH)
+wave
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/src/wave.asdb'.
+wave  /UpDwnCntr_TB/*
+# 5 signal(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/cnt_tmp}
+# 1 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/upDwn}
+# 1 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/currentState}
+# 1 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/nextState}
+# 1 signal(s) traced.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+UpDwnCntr_TB UpDwnCntr_TB BENCH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6985 kB (elbread=1023 elab2=5811 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\src\wave.asdb
+#  7:47 PM, Tuesday, November 14, 2017
+#  Simulation has been initialized
+#  Selected Top-Level: UpDwnCntr_TB (BENCH)
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+asim +access +r -advdataflow UpDwnCntr_TB
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6985 kB (elbread=1023 elab2=5811 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\src\wave.asdb
+#  7:47 PM, Tuesday, November 14, 2017
+#  Simulation has been initialized
+#  Selected Top-Level: UpDwnCntr_TB (BENCH)
+wave
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/src/wave.asdb'.
+wave  /UpDwnCntr_TB/*
+# 5 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/currentState}
+# 1 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/nextState}
+# 1 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/cnt_tmp}
+# 1 signal(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+#  Simulation has been stopped
+asim -O5 +access +r +m+UpDwnCntr_TB UpDwnCntr_TB BENCH
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6985 kB (elbread=1023 elab2=5811 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\src\wave.asdb
+#  7:48 PM, Tuesday, November 14, 2017
+#  Simulation has been initialized
+#  Selected Top-Level: UpDwnCntr_TB (BENCH)
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/src/wave.asdb'.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+asim +access +r -advdataflow UpDwnCntr_TB
+# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+#  Simulation has been stopped
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# asim: Stack memory: 32MB
+# asim: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# ELAB2: Create instances complete.
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6985 kB (elbread=1023 elab2=5811 kernel=149 sdf=0)
+# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\src\wave.asdb
+#  7:49 PM, Tuesday, November 14, 2017
+#  Simulation has been initialized
+#  Selected Top-Level: UpDwnCntr_TB (BENCH)
+wave
+# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/src/wave.asdb'.
+wave  /UpDwnCntr_TB/*
+# 5 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/cnt_tmp}
+# 1 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/currentState}
+# 1 signal(s) traced.
+# add wave -noreg {/UpDwnCntr_TB/UUT/U3/nextState}
+# 1 signal(s) traced.
+run
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+#  Simulation has been stopped
+acom -O3 -work UpDownFSM -2002  $dsn/src/dispmux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\dispmux.vhd
+# Compile Entity "DISPMUX"
+# Compile Architecture "behavioral" of Entity "DISPMUX"
+# Warning: ELAB1_0026: dispmux.vhd : (27, 0): There is no default binding for component "hex_display". (No entity named "hex_display" was found).
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/hexdisp.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\hexdisp.vhd
+# Compile Entity "hex_display"
+# Compile Architecture "behavioral_hexDisp" of Entity "hex_display"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/outMux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\outMux.vhd
+# Compile Entity "outMux"
+# Compile Architecture "behavior" of Entity "outMux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/outMux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\outMux.vhd
+# Compile Entity "outMux"
+# Compile Architecture "behavior" of Entity "outMux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/dispmux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\dispmux.vhd
+# Compile Entity "DISPMUX"
+# Compile Architecture "behavioral" of Entity "DISPMUX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCounter.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde'.
+# DRC: UpDwnCounter.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\compile\UpDwnCounter.vhd from c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\UpDwnCounter.vhd
+# Compile Entity "UpDwnCounter"
+# Compile Architecture "UpDwnCounter" of Entity "UpDwnCounter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# Error: File: 'c:/My_Designs/F2017_Mahoney/src/clk10hz.vhd' included in synthesis not found.
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 13 warning(s)
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 16 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# Implementation has been started.
+# Error: File 'c:/My_Designs/F2017_Mahoney/implement/ver1/rev1/UpDwnCounter.ngd' does not exist.
+# Implementation ver1->rev1: 1 error(s), 0 warning(s).
+# Error: Implementation ended with error(s).
+# Error: No simulation netlist was produced.
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 16 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# File "c:\My_Designs\F2017_Mahoney\synthesis\UpDwnCounter.ngc" has been modified after last implementation run.
+# Implementation has been started.
+# Error: File 'c:/My_Designs/F2017_Mahoney/implement/ver1/rev1/UpDwnCounter.ngd' does not exist.
+# Implementation ver1->rev1: 1 error(s), 0 warning(s).
+# Error: Implementation ended with error(s).
+# Error: No simulation netlist was produced.
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# Implementation has been started.
+# Implementation ver1->rev1: 0 error(s), 2 warning(s).
+# Warning: Implementation ended with warning(s).
+# Setting simulation top-level to 'UpDwnCounter' for timing simulation options.
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 16 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# File "c:\My_Designs\F2017_Mahoney\synthesis\UpDwnCounter.ngc" has been modified after last implementation run.
+# Implementation has been started.
+# Error: File 'c:/My_Designs/F2017_Mahoney/implement/ver1/rev1/UpDwnCounter.ngd' does not exist.
+# Implementation ver1->rev1: 2 error(s), 1 warning(s).
+# Error: Implementation ended with error(s).
+# Error: No simulation netlist was produced.
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 16 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# File "c:\My_Designs\F2017_Mahoney\synthesis\UpDwnCounter.ngc" has been modified after last implementation run.
+# Implementation has been started.
+# Error: File 'c:/My_Designs/F2017_Mahoney/implement/ver1/rev1/UpDwnCounter.ngd' does not exist.
+# Implementation ver1->rev1: 2 error(s), 1 warning(s).
+# Error: Implementation ended with error(s).
+# Error: No simulation netlist was produced.
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (85, 2): Unknown identifier "cnt".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (85, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (85, 2): "cnt" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (85, 2): Unknown identifier "cnt".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (85, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (85, 2): "cnt" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (85, 2): Unknown identifier "cnt".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (85, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (85, 2): "cnt" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (85, 2): Unknown identifier "cnt".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (85, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (85, 2): "cnt" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (85, 2): Unknown identifier "cnt".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (85, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (85, 2): "cnt" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Error: COMP96_0078: UpDwnCntr_TB.vhd : (85, 2): Unknown identifier "cnt".
+# Error: COMP96_0133: UpDwnCntr_TB.vhd : (85, 2): Cannot find object declaration.
+# Error: COMP96_0112: UpDwnCntr_TB.vhd : (85, 2): "cnt" does not match the formal name.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCntr_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\src\UpDwnCntr_TB.vhd
+# Compile Entity "UpDwnCntr_TB"
+# Compile Architecture "BENCH" of Entity "UpDwnCntr_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCounter.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde'.
+# DRC: Error: UpDwnCounter.bde - 1 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+acom -O3 -work UpDownFSM -2002  $dsn/src/UpDwnCounter.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde'.
+# DRC: UpDwnCounter.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\compile\UpDwnCounter.vhd from c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\UpDwnCounter.vhd
+# Compile Entity "UpDwnCounter"
+# Compile Architecture "UpDwnCounter" of Entity "UpDwnCounter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# File 'c:/My_Designs/F2017_Mahoney/compile/UpDwnCounter.vhd' is older than 'c:/My_Designs/F2017_Mahoney/src/UpDwnCounter.bde' and will be updated.
+Scripter.GenerateBDE "c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde" -lib UpDownFSM
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde'.
+# DRC: UpDwnCounter.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\compile\UpDwnCounter.vhd from c:\My_Designs\F2017_Mahoney\src\UpDwnCounter.bde ... 
+# Generation successful 
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 16 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# File "c:\My_Designs\F2017_Mahoney\synthesis\UpDwnCounter.ngc" has been modified after last implementation run.
+# Implementation has been started.
+# Error: File 'c:/My_Designs/F2017_Mahoney/implement/ver1/rev1/UpDwnCounter.ngd' does not exist.
+# Implementation ver1->rev1: 2 error(s), 2 warning(s).
+# Error: Implementation ended with error(s).
+# Error: No simulation netlist was produced.
+# Running synthesis...
+# Warning: Synthesis: 0 errors, 16 warning(s)
+# Checking if synthesis needs to be updated...
+# Checking if implementation needs to be updated...
+# File "c:\My_Designs\F2017_Mahoney\synthesis\UpDwnCounter.ngc" has been modified after last implementation run.
+# Implementation has been started.
+# Implementation ver1->rev1: 0 error(s), 3 warning(s).
+# Warning: Implementation ended with warning(s).

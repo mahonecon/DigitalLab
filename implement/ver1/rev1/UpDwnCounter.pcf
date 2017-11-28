@@ -1,0 +1,22 @@
+//! **************************************************************************
+// Written by: Map P.28xd on Tue Nov 14 20:32:47 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "display<6>" LOCATE = SITE "L18" LEVEL 1;
+COMP "enable" LOCATE = SITE "L16" LEVEL 1;
+COMP "digits<0>" LOCATE = SITE "J17" LEVEL 1;
+COMP "digits<1>" LOCATE = SITE "J18" LEVEL 1;
+COMP "digits<2>" LOCATE = SITE "T9" LEVEL 1;
+COMP "upDwn" LOCATE = SITE "M13" LEVEL 1;
+COMP "digits<3>" LOCATE = SITE "J14" LEVEL 1;
+COMP "clock" LOCATE = SITE "E3" LEVEL 1;
+COMP "reset" LOCATE = SITE "J15" LEVEL 1;
+COMP "display<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "display<1>" LOCATE = SITE "R10" LEVEL 1;
+COMP "display<2>" LOCATE = SITE "K16" LEVEL 1;
+COMP "display<3>" LOCATE = SITE "K13" LEVEL 1;
+COMP "display<4>" LOCATE = SITE "P15" LEVEL 1;
+COMP "display<5>" LOCATE = SITE "T11" LEVEL 1;
+SCHEMATIC END;
+

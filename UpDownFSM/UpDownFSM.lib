@@ -1,0 +1,113 @@
+timestamp=1510709486976
+
+[clk_10hz]
+A/behavioral=21|./../src/clk10hz.vhd|32|1*0
+BinI32/behavioral=3*0
+I=0*3459
+I/behavioral=0*3691
+M=11|0|vb4|1510703869338|./../src/clk10hz.vhd|0*0*0xa6ac798c71e47ef47949ae810d0073b75992c590|0*291*0x5eebbfaf24833dd780412b1f91e05209
+M/behavioral=21|0|vb4|1510703869340|./../src/clk10hz.vhd|0*371*0x9f5ce41eeb74b9df829bc6e2427fa69d65931764|0*872*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/clk10hz.vhd|20
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[clock_10hz]
+A/behavioral=21|./../src/clock10hz.vhd|32|1*9470
+BinI32/behavioral=3*2690
+I=0*4112
+I/behavioral=0*8614
+M=11|0|vb4|1510703890917|./../src/clk10hz.vhd|0*966*0xa278dc0a77cb8944f62027345ae2a3fb27a76906|0*1263*0x5eebbfaf24833dd780412b1f91e05209
+M/behavioral=21|0|vb4|1510705680002|./../src/clock10hz.vhd|0*8009*0x6f40971ccbbdad360f1eb3375f8c4eecc25b9b67|0*8516*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/clock_10hz=40|0|2*0
+R=./../src/clk10hz.vhd|20
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[dispmux]
+A/behavioral=21|./../src/dispmux.vhd|14|1*31606
+BinI32/behavioral=3*5809
+I=0*17859
+I/behavioral=0*22217
+M=11|0|vb4|1510707765299|./../src/dispmux.vhd|0*17401*0x0b6394fc32de4263cc563bdfc5979ad8812a1d7e|0*17780*0x5eebbfaf24833dd780412b1f91e05209
+M/behavioral=21|0|vb4|1510708151593|./../src/dispmux.vhd|0*18094*0x5208e503285b842ca52d004b9352f5bd38a9fa69|0*18991*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/dispmux=NSymbols/DISPMUX 40|0|2*5397
+R=./../src/dispmux.vhd|6
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[hex_display]
+A/behavioral_hexdisp=A/behavioral_hexDisp 21|./../src/hexdisp.vhd|11|1*27256
+BinI32/behavioral_hexdisp=3*4913
+I=0*19716
+I/behavioral_hexdisp=I/behavioral_hexDisp 0*20711
+M=11|0|vb4|1510707770726|./../src/hexdisp.vhd|0*19329*0x68fd9cd46461b97e152dc3795feebfa22b11907b|0*19633*0x5eebbfaf24833dd780412b1f91e05209
+M/behavioral_hexdisp=M/behavioral_hexDisp 21|0|vb4|1510707770728|./../src/hexdisp.vhd|0*19955*0x14ef7349057f219f528e1f0206aaeb94edc23be5|0*20606*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/hexdisp.vhd|6
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral_hexdisp=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[outmux]
+A/behavior=21|./../src/outMux.vhd|17|1*30349
+BinI32/behavior=3*5511
+I=0*21486
+I/behavior=0*21974
+M=11|0|vb4|1510707942579|./../src/outMux.vhd|0*21127*0x9b4af6a30fa119cc8222fd834344febcf6aa3af0|0*21409*0x5eebbfaf24833dd780412b1f91e05209
+M/behavior=21|0|vb4|1510707978200|./../src/outMux.vhd|0*21720*0xd025d6e569941185dca9a47a7431dbb76e7ea4d3|0*21885*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/outmux=NSymbols/outMux 40|0|2*4051
+R=./../src/outMux.vhd|8
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavior=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[updowncntr]
+A/behavior=21|./../src/UpDownFSM.vhd|12|1*3426
+BinI32/behavior=3*1564
+I=0*4821
+I/behavior=0*5059
+M=11|0|vb4|1510705158309|./../src/UpDownFSM.vhd|0*1946*0x25481022599117b1c670f7be900e35747204bfae|0*2261*0x5eebbfaf24833dd780412b1f91e05209
+M/behavior=21|0|vb4|1510705323554|./../src/UpDownFSM.vhd|0*2345*0xe79143af052762ec6aa8e51c661a0f9ba5ff86e8|0*3191*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/updowncntr=NSymbols/UpDownCntr 40|0|2*1659
+R=./../src/UpDownFSM.vhd|7
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavior=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[updwncntr_tb]
+A/bench=A/BENCH 21|./../src/UpDwnCntr_TB.vhd|10|1*41187
+BinI32/bench=3*6609
+I=0*9267
+I/bench=I/BENCH 0*26624
+M=11|0|vb4|1510706396929|./../src/UpDwnCntr_TB.vhd|0*8941*0x7da241832a882bcab51cc385b3c2ec286c4b587c|0*9178*0x5eebbfaf24833dd780412b1f91e05209
+M/bench=M/BENCH 21|0|vb4|1510709286608|./../src/UpDwnCntr_TB.vhd|0*25839*0xf09488ec3308d243f7846b956c59ef2dd376649f|0*26526*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/UpDwnCntr_TB.vhd|6
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/bench=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[updwncounter]
+A/updwncounter=A/UpDwnCounter 24|.\..\src\UpDwnCounter.bde|10000|
+I=0*23390
+I/updwncounter=I/UpDwnCounter 0*28352
+M=11|0|vb4|1510708190018|./../compile/UpDwnCounter.vhd|0*22798*0xe518a68cc8fc4a042b108a9c1d73df4ee4d301fd|0*23297*0x5eebbfaf24833dd780412b1f91e05209
+M/updwncounter=M/UpDwnCounter 21|0|vb4|1510709362159|./../compile/UpDwnCounter.vhd|0*26929*0x062d465237e9d75fd5755785633b77507795a14a|0*28243*0x856b180bf611ec746a6bfcb1befebd18
+R=./../compile/UpDwnCounter.vhd|35
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/updwncounter=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=123
+Version=73
+
+[~MFT]
+0=107|0UpDownFSM.mgf|28352|13341
+1=21|1UpDownFSM.mgf|42987|11961
+2=2|2UpDownFSM.mgf|5397|0
+3=18|3UpDownFSM.mgf|6609|2413
+
+[~U]
+clk_10hz=11|0*3287|
+clock_10hz=11|0*3934||0x3
+dispmux=DISPMUX 11|0*17151||0x3
+hex_display=11|0*19151|
+outmux=outMux 11|0*20969||0x3
+updowncntr=UpDownCntr 11|0*4591||0x3
+updwncntr_tb=UpDwnCntr_TB 11|0*8859|
+updwncounter=UpDwnCounter 11|0*22521|
+

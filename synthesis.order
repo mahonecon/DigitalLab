@@ -1,0 +1,6 @@
+i<>.\src\UpDownFSM.vhd
+i<>.\src\UpDwnCounter.bde
+i<>.\src\dispmux.vhd
+i<>.\src\hexdisp.vhd
+i<>.\src\outMux.vhd
+i<>.\src\clock10hz.vhd

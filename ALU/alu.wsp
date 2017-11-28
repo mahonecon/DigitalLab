@@ -1,0 +1,18 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+artix7=1
+shifter=0
+Built-in symbols=0
+project1=0
+project1_timing=1
+FSM=0
+fullAdder=0
+fullAdder1=0
+UpDownFSM=0
+ALU=0
+
+[General]
+CurrentVersion=103
+
+[CACHEDOC|Aldec.Project.Generic.7|.\ALU\ALU.adf|]
+Path=
+

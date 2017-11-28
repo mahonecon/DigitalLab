@@ -1,0 +1,17 @@
+123
+~E 1 "./../src/clk10hz.vhd" 20 clk_10hz
+~A 1 "./../src/clk10hz.vhd" 32 behavioral
+~E 1 "./../src/clk10hz.vhd" 20 clock_10hz
+~A 1 "./../src/clock10hz.vhd" 32 behavioral
+~E 1 "./../src/dispmux.vhd" 6 DISPMUX
+~A 1 "./../src/dispmux.vhd" 14 behavioral
+~E 1 "./../src/hexdisp.vhd" 6 hex_display
+~A 1 "./../src/hexdisp.vhd" 11 behavioral_hexDisp
+~E 1 "./../src/outMux.vhd" 8 outMux
+~A 1 "./../src/outMux.vhd" 17 behavior
+~E 1 "./../src/UpDownFSM.vhd" 7 UpDownCntr
+~A 1 "./../src/UpDownFSM.vhd" 12 behavior
+~E 1 "./../src/UpDwnCntr_TB.vhd" 6 UpDwnCntr_TB
+~A 1 "./../src/UpDwnCntr_TB.vhd" 10 BENCH
+~E 1 "./../compile/UpDwnCounter.vhd" 35 UpDwnCounter
+~A 0 "" 0 UpDwnCounter

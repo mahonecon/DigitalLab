@@ -1,0 +1,9 @@
+.\src\clock10hz.vhd
+.\src\UpDownFSM.vhd
+.\src\UpDwnCounter.bde
+.\src\UpDwnCntr_TB.vhd
+.\src\dispmux.vhd
+.\src\hexdisp.vhd
+.\src\outMux.vhd
+.\synthesis\UpDwnCounter.vhd
+.\IMPLEMENT\TIME_SIM.VHD

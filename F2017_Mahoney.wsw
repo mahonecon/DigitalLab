@@ -1,0 +1,11 @@
+[OPENDOC|Aldec.BDE.7|.\src\UpDwnCounter.bde|]
+TemplateId=0
+AddInfo=UpDownFSM
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\outMux.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\clock10hz.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\src\UpDwnCntr_TB.vhd|]
+TemplateId=0
+[OPENDOC|Aldec.HtmlDoc.PlugIn.7|.\log\UpDwnCounter.htm|]
+TemplateId=0

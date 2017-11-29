@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\F2017_Mahoney\library.cfg"  -j "c:\My_Designs\F2017_Mahoney\shifter\projlib.cfg"  -d "c:\My_Designs\F2017_Mahoney\shifter\compile"   -work shifter  -O3 -e 100 "c:\My_Designs\F2017_Mahoney\shifter\src\shifter_TB.vhd"

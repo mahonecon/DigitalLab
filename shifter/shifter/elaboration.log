@@ -1,0 +1,36 @@
+Active-HDL 9.3.2744.4995  2017-11-28 8:12:37 PM
+
+Elaboration top modules:
+Architecture                  BENCH(shifter_TB)
+
+
+--------------------------------------------------------------------------------------------
+Entity     | Architecture | Library | Info | Compiler Version         | Compilation Options
+--------------------------------------------------------------------------------------------
+shifter_TB | BENCH        | shifter |      | 9.3.2744.4995  (Windows) | -O3
+shifter    | behavior     | shifter |      | 9.3.2744.4995  (Windows) | -O3
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+VHDL Package              | Library | Info | Compiler Version         | Compilation Options
+--------------------------------------------------------------------------------------------
+standard                  | std     |      |                          | 
+TEXTIO                    | std     |      | 9.3.2744.4995  (Windows) |  -2008
+std_logic_1164            | ieee    |      | 9.3.2744.4995  (Windows) |  -2008
+std_logic_arith           | ieee    |      | 9.3.2744.4995  (Windows) | 
+STD_LOGIC_UNSIGNED        | ieee    |      | 9.3.2744.4995  (Windows) | 
+--------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------
+Library                   | Comment
+--------------------------------------------------------------------------------------------
+ieee                      | Standard IEEE packages library
+shifter                   | None
+std                       | Standard VHDL library
+--------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim +access +r -advdataflow shifter_TB
+
+
+The performance of simulation is reduced. Version EDU Edition

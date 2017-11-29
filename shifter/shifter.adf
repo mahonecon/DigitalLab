@@ -3,10 +3,13 @@ Current Flow=Multivendor
 VCS=0
 version=3
 Current Config=compile
+
 [Configurations]
 compile=shifter
+
 [Library]
 shifter=.\shifter\shifter.lib
+
 [Settings]
 AccessRead=0
 AccessReadWrite=0
@@ -30,20 +33,26 @@ DVM_DISPLAY=NO
 REFRESH_FLOW=1
 FAMILY=Xilinx14x ARTIX7
 RUN_MODE_SYNTH=0
+FUNC_LIB=shifter
+
 [LocalVerilogSets]
 EnableSLP=1
 EnableDebug=0
+
 [LocalVhdlSets]
 CompileWithDebug=0
+
 [$LibMap$]
 shifter=.
 Active_lib=ARTIX7
 xilinxun=ARTIX7
 UnlinkedDesignLibrary=ARTIX7
 DESIGNS=ARTIX7
+
 [IMPLEMENTATION]
 UCF=
 FLOW_STEPS_RESET=0
+
 [IMPLEMENTATION_XILINX14]
 impl_opt(dont_run_translate)=0
 impl_opt(dont_run_map)=0
@@ -52,8 +61,10 @@ impl_opt(dont_run_trace)=0
 impl_opt(dont_run_simulation)=0
 impl_opt(dont_run_fit)=0
 impl_opt(dont_run_bitgen)=1
+
 [SpecTracer]
 WindowVisible=0
+
 [Folders]
 Name3=Makefiles
 Directory3=c:\My_Designs\F2017_Mahoney\shifter\
@@ -70,3 +81,23 @@ Extension6=pdf
 Name7=HTML
 Directory7=c:\My_Designs\F2017_Mahoney\shifter\
 Extension7=
+
+[Files]
+/shifter.vhd=-1
+/shifter_TB.vhd=-1
+
+[Files.Data]
+.\src\shifter.vhd=VHDL Source Code
+
+.\src\shifter_TB.vhd=VHDL Source Code
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=shifter_TB
+WAVEFORMS=
+DEFWAVE=1
+ADD_HIERARCHY_SIGNALS=0

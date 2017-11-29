@@ -30,6 +30,7 @@ DVM_DISPLAY=NO
 REFRESH_FLOW=1
 FAMILY=Xilinx14x ARTIX7
 RUN_MODE_SYNTH=0
+FUNC_LIB=ALU
 [LocalVerilogSets]
 EnableSLP=1
 EnableDebug=0
@@ -70,3 +71,24 @@ Extension6=pdf
 Name7=HTML
 Directory7=c:\My_Designs\F2017_Mahoney\ALU\
 Extension7=
+[Files]
+/ALU.vhd=-1
+/ALU_TB.vhd=-1
+[Files.Data]
+.\src\ALU.vhd=VHDL Source Code
+.\src\ALU_TB.vhd=VHDL Source Code
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=ALU_TB
+WAVEFORMS=
+DEFWAVE=1
+ADD_HIERARCHY_SIGNALS=0
+[HierarchyViewer]
+HierarchyInformation=alu|behavior|0 alu_tb|BENCH|0 
+ShowHide=ShowTopLevel
+Selected=

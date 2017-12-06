@@ -1,0 +1,11 @@
+i<>.\src\comparator.vhd
+i<>.\src\compLT.vhd
+i<>.\src\inMux.vhd
+i<>.\src\outmux.vhd
+i<>.\src\reg_file.vhd
+i<>.\src\register.vhd
+i<>.\src\selector.vhd
+i<>.\src\triSt_buf.vhd
+i<>.\src\dataPath.bde
+i<>.\src\ALU.vhd
+i<>.\src\shifter.vhd

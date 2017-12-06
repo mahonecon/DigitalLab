@@ -1,0 +1,45 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -work FinalExam -2002  $dsn/src/comparator.vhd $dsn/src/compLT.vhd $dsn/src/inMux.vhd $dsn/src/outmux.vhd $dsn/src/reg_file.vhd $dsn/src/register.vhd $dsn/src/selector.vhd $dsn/src/triSt_buf.vhd $dsn/src/dataPath.bde $dsn/src/ALU.vhd $dsn/src/shifter.vhd
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\FinalExam\src\dataPath.bde'.
+# DRC: dataPath.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\FinalExam\compile\dataPath.vhd from c:\My_Designs\F2017_Mahoney\FinalExam\src\dataPath.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\comparator.vhd
+# Compile Entity "Comparator"
+# Compile Architecture "behv" of Entity "Comparator"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\compLT.vhd
+# Compile Entity "CompLT"
+# Compile Architecture "behv" of Entity "CompLT"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\inMux.vhd
+# Compile Entity "inMux"
+# Compile Architecture "behavioral" of Entity "inMux"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\outmux.vhd
+# Compile Entity "outBuf"
+# Compile Architecture "behv1" of Entity "outBuf"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\reg_file.vhd
+# Compile Entity "reg_file"
+# Compile Architecture "behavioral" of Entity "reg_file"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\register.vhd
+# Compile Entity "reg"
+# Compile Architecture "behv" of Entity "reg"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\selector.vhd
+# Compile Entity "selector"
+# Compile Architecture "behavioral" of Entity "selector"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\triSt_buf.vhd
+# Compile Entity "triBuf"
+# Compile Architecture "behavioral" of Entity "triBuf"
+# File: .\dataPath.vhd
+# Compile Entity "dataPath"
+# Compile Architecture "dataPath" of Entity "dataPath"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "behavior" of Entity "ALU"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\shifter.vhd
+# Compile Entity "shifter"
+# Compile Architecture "behavior" of Entity "shifter"
+# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]

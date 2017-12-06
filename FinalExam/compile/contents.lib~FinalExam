@@ -1,0 +1,23 @@
+189
+~E 1 "./../src/ALU.vhd" 8 ALU
+~A 1 "./../src/ALU.vhd" 19 behavior
+~E 1 "./../src/comparator.vhd" 11 Comparator
+~A 1 "./../src/comparator.vhd" 21 behv
+~E 1 "./../src/compLT.vhd" 11 CompLT
+~A 1 "./../src/compLT.vhd" 21 behv
+~E 1 "./../compile/dataPath.vhd" 31 dataPath
+~A 1 "./../compile/dataPath.vhd" 55 dataPath
+~E 1 "./../src/inMux.vhd" 8 inMux
+~A 1 "./../src/inMux.vhd" 20 behavioral
+~E 1 "./../src/outmux.vhd" 11 outBuf
+~A 1 "./../src/outmux.vhd" 18 behv1
+~E 1 "./../src/register.vhd" 11 reg
+~A 1 "./../src/register.vhd" 22 behv
+~E 1 "./../src/reg_file.vhd" 7 reg_file
+~A 1 "./../src/reg_file.vhd" 21 behavioral
+~E 1 "./../src/selector.vhd" 8 selector
+~A 1 "./../src/selector.vhd" 20 behavioral
+~E 1 "./../src/shifter.vhd" 8 shifter
+~A 1 "./../src/shifter.vhd" 19 behavior
+~E 1 "./../src/triSt_buf.vhd" 8 triBuf
+~A 1 "./../src/triSt_buf.vhd" 20 behavioral

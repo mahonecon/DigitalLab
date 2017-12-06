@@ -1,0 +1,100 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=3
+Current Config=compile
+
+[Configurations]
+compile=FinalExam
+
+[Library]
+FinalExam=.\FinalExam\FinalExam.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+SYNTH_TOOL=MV_XST142
+IMPL_TOOL=MV_ISE142
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+REFRESH_FLOW=1
+FAMILY=Xilinx14x ARTIX7
+RUN_MODE_SYNTH=0
+fileopenfolder=C:\My_Designs\F2017_Mahoney\shifter\src
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+FinalExam=.
+Active_lib=ARTIX7
+xilinxun=ARTIX7
+UnlinkedDesignLibrary=ARTIX7
+DESIGNS=ARTIX7
+
+[IMPLEMENTATION]
+UCF=
+FLOW_STEPS_RESET=0
+
+[IMPLEMENTATION_XILINX14]
+impl_opt(dont_run_translate)=0
+impl_opt(dont_run_map)=0
+impl_opt(dont_run_place)=0
+impl_opt(dont_run_trace)=0
+impl_opt(dont_run_simulation)=0
+impl_opt(dont_run_fit)=0
+impl_opt(dont_run_bitgen)=1
+
+[SpecTracer]
+WindowVisible=0
+
+[Files]
+/comparator.vhd=-1
+/compLT.vhd=-1
+/inMux.vhd=-1
+/outmux.vhd=-1
+/reg_file.vhd=-1
+/register.vhd=-1
+/selector.vhd=-1
+/triSt_buf.vhd=-1
+/dataPath.bde=-1
+/ALU.vhd=-1
+/shifter.vhd=-1
+
+[Files.Data]
+.\src\comparator.vhd=VHDL Source Code
+.\src\compLT.vhd=VHDL Source Code
+.\src\inMux.vhd=VHDL Source Code
+.\src\outmux.vhd=VHDL Source Code
+.\src\reg_file.vhd=VHDL Source Code
+.\src\register.vhd=VHDL Source Code
+.\src\selector.vhd=VHDL Source Code
+.\src\triSt_buf.vhd=VHDL Source Code
+.\src\dataPath.bde=Block Diagram
+.\src\ALU.vhd=VHDL Source Code
+.\src\shifter.vhd=VHDL Source Code
+
+[file_out:/dataPath.bde]
+/..\compile\dataPath.vhd=-1
+
+[HierarchyViewer]
+HierarchyInformation=comparator|behv|0 
+ShowHide=ShowTopLevel
+Selected=

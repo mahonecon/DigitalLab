@@ -1,4 +1,4 @@
-189
+521
 ~E 1 "./../src/ALU.vhd" 8 ALU
 ~A 1 "./../src/ALU.vhd" 19 behavior
 ~E 1 "./../src/comparator.vhd" 11 Comparator
@@ -7,10 +7,28 @@
 ~A 1 "./../src/compLT.vhd" 21 behv
 ~E 1 "./../compile/dataPath.vhd" 31 dataPath
 ~A 1 "./../compile/dataPath.vhd" 55 dataPath
+~E 1 "./../src/dispmux.vhd" 6 DISPMUX
+~A 1 "./../src/dispmux.vhd" 14 behavioral
+~E 1 "./../compile/finalFPGA.vhd" 35 finalFPGA
+~A 1 "./../compile/finalFPGA.vhd" 47 finalFPGA
+~E 1 "./../src/fsm.vhd" 5 FSM
+~A 1 "./../src/fsm.vhd" 13 behv
+~E 1 "./../compile/GPP.vhd" 28 GPP
+~A 1 "./../compile/GPP.vhd" 39 GPP
+~E 1 "./../src/GPP_TB.vhd" 5 GPP_TB
+~A 1 "./../src/GPP_TB.vhd" 9 BENCH
+~E 1 "./../src/hexdisp.vhd" 6 hex_display
+~A 1 "./../src/hexdisp.vhd" 11 behavioral_hexDisp
 ~E 1 "./../src/inMux.vhd" 8 inMux
 ~A 1 "./../src/inMux.vhd" 20 behavioral
+~E 1 "./../src/instDecoder.vhd" 7 instDecoder
+~A 1 "./../src/instDecoder.vhd" 16 behv1
+~E 1 "./../src/dispmux.vhd" 11 MUXDISP
+~A 1 "./../src/dispmux.vhd" 29 behavioral
 ~E 1 "./../src/outmux.vhd" 11 outBuf
 ~A 1 "./../src/outmux.vhd" 18 behv1
+~E 1 "./../src/outMux.vhd" 8 outMux
+~A 1 "./../src/outMux.vhd" 17 behavior
 ~E 1 "./../src/register.vhd" 11 reg
 ~A 1 "./../src/register.vhd" 22 behv
 ~E 1 "./../src/reg_file.vhd" 7 reg_file

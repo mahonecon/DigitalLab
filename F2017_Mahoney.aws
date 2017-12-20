@@ -4,6 +4,7 @@ Version=9.3
 updownfsm=.\UpDownFSM.adf
 alu=.\ALU\ALU.adf
 shifter=.\shifter\shifter.adf
+finalexam=.\FinalExam\FinalExam.adf
 [Browser]
 sort=order
 mode=none
@@ -11,8 +12,9 @@ mode=none
 order=1
 macro=
 [Expand]
-updownfsm=1
-alu=1
-shifter=1
+updownfsm=0
+alu=0
+shifter=0
+finalexam=1
 [Settings]
-Active=updownfsm
+Active=finalexam

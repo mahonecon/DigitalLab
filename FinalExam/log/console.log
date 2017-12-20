@@ -1,6 +1,272 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -work FinalExam -2002  $dsn/src/comparator.vhd $dsn/src/compLT.vhd $dsn/src/inMux.vhd $dsn/src/outmux.vhd $dsn/src/reg_file.vhd $dsn/src/register.vhd $dsn/src/selector.vhd $dsn/src/triSt_buf.vhd $dsn/src/dataPath.bde $dsn/src/ALU.vhd $dsn/src/shifter.vhd
+acom -O3 -work FinalExam -2002  $dsn/src/hexdisp.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\hexdisp.vhd
+# Compile Entity "hex_display"
+# Compile Architecture "behavioral_hexDisp" of Entity "hex_display"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/dispmux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\dispmux.vhd
+# Compile Entity "DISPMUX"
+# Compile Architecture "behavioral" of Entity "DISPMUX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/dispmux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\dispmux.vhd
+# Compile Entity "DISPMUX"
+# Compile Architecture "behavioral" of Entity "DISPMUX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/hexdisp.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\hexdisp.vhd
+# Compile Entity "hex_display"
+# Compile Architecture "behavioral_hexDisp" of Entity "hex_display"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/fsm.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\fsm.vhd
+# Compile Entity "FSM"
+# Compile Architecture "behv" of Entity "FSM"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/GPP_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\GPP_TB.vhd
+# Compile Entity "GPP_TB"
+# Compile Architecture "BENCH" of Entity "GPP_TB"
+# Error: COMP96_0078: GPP_TB.vhd : (63, 18): Unknown identifier "GPP".
+# Error: COMP96_0055: GPP_TB.vhd : (63, 13): Cannot find referenced context element.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work FinalExam -2002  $dsn/src/instDecoder.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\instDecoder.vhd
+# Compile Entity "instDecoder"
+# Compile Architecture "behv1" of Entity "instDecoder"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/GPP.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\FinalExam\src\GPP.bde'.
+# DRC: Warning: GPP.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\FinalExam\compile\GPP.vhd from c:\My_Designs\F2017_Mahoney\FinalExam\src\GPP.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\GPP.vhd
+# Compile Entity "GPP"
+# Compile Architecture "GPP" of Entity "GPP"
+# Warning: ELAB1_0026: GPP.bde(GPP.vhd) : (116, 0): There is no default binding for component "dataPath". (Port "selector_select" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work FinalExam -2002  $dsn/src/GPP_TB.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\GPP_TB.vhd
+# Compile Entity "GPP_TB"
+# Compile Architecture "BENCH" of Entity "GPP_TB"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/GPP.bde
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\GPP.vhd
+# Compile Entity "GPP"
+# Compile Architecture "GPP" of Entity "GPP"
+# Warning: ELAB1_0026: GPP.bde(GPP.vhd) : (116, 0): There is no default binding for component "dataPath". (Port "selector_select" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work FinalExam -2002  $dsn/src/outMux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\outMux.vhd
+# Compile Entity "outMux"
+# Compile Architecture "behavior" of Entity "outMux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/dispmux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\dispmux.vhd
+# Compile Entity "DISPMUX"
+# Compile Architecture "behavioral" of Entity "DISPMUX"
+# Error: COMP96_0367: dispmux.vhd : (61, 14): Improper array length (4). Expected length is 8.
+# Error: COMP96_0367: dispmux.vhd : (62, 14): Improper array length (4). Expected length is 8.
+# Error: COMP96_0367: dispmux.vhd : (63, 14): Improper array length (4). Expected length is 8.
+# Error: COMP96_0367: dispmux.vhd : (64, 14): Improper array length (4). Expected length is 8.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -work FinalExam -2002  $dsn/src/dispmux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\dispmux.vhd
+# Compile Entity "DISPMUX"
+# Compile Architecture "behavioral" of Entity "DISPMUX"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/dispmux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\dispmux.vhd
+# Compile Entity "MUXDISP"
+# Compile Architecture "behavioral" of Entity "MUXDISP"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/finalFPGA.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\FinalExam\src\finalFPGA.bde'.
+# DRC: finalFPGA.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\FinalExam\compile\finalFPGA.vhd from c:\My_Designs\F2017_Mahoney\FinalExam\src\finalFPGA.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\finalFPGA.vhd
+# Compile Entity "finalFPGA"
+# Compile Architecture "finalFPGA" of Entity "finalFPGA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# File 'c:/My_Designs/F2017_Mahoney/FinalExam/compile/dataPath.vhd' is older than 'c:/My_Designs/F2017_Mahoney/FinalExam/src/dataPath.bde' and will be updated.
+Scripter.GenerateBDE "c:\My_Designs\F2017_Mahoney\FinalExam\src\dataPath.bde" -lib FinalExam
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\FinalExam\src\dataPath.bde'.
+# DRC: dataPath.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\FinalExam\compile\dataPath.vhd from c:\My_Designs\F2017_Mahoney\FinalExam\src\dataPath.bde ... 
+# Generation successful 
+# File 'c:/My_Designs/F2017_Mahoney/FinalExam/compile/finalFPGA.vhd' is older than 'c:/My_Designs/F2017_Mahoney/FinalExam/src/finalFPGA.bde' and will be updated.
+Scripter.GenerateBDE "c:\My_Designs\F2017_Mahoney\FinalExam\src\finalFPGA.bde" -lib FinalExam
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\FinalExam\src\finalFPGA.bde'.
+# DRC: finalFPGA.bde - 0 error(s), 0 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\FinalExam\compile\finalFPGA.vhd from c:\My_Designs\F2017_Mahoney\FinalExam\src\finalFPGA.bde ... 
+# Generation successful 
+# Error: No top level selected for top-level synthesis.
+# Running synthesis...
+# Error: Synthesis: 2 error(s), 0 warning(s)
+# Running synthesis...
+# Error: Synthesis: 2 error(s), 0 warning(s)
+acom -O3 -work FinalExam -2002  $dsn/src/dataPath.bde
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\dataPath.vhd
+# Compile Entity "dataPath"
+# Compile Architecture "dataPath" of Entity "dataPath"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/GPP.bde
+# Compile...
+# DRC: Checking file 'c:\My_Designs\F2017_Mahoney\FinalExam\src\GPP.bde'.
+# DRC: Warning: GPP.bde - 0 error(s), 2 warning(s)
+# DRC: DRC process completed in 1 second(s).
+# DRC: The results have been written to the log file. Double click on this line to view the log.
+# Generating c:\My_Designs\F2017_Mahoney\FinalExam\compile\GPP.vhd from c:\My_Designs\F2017_Mahoney\FinalExam\src\GPP.bde ... 
+# Generation successful 
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\GPP.vhd
+# Compile Entity "GPP"
+# Compile Architecture "GPP" of Entity "GPP"
+# Warning: ELAB1_0026: GPP.bde(GPP.vhd) : (116, 0): There is no default binding for component "dataPath". (Port "selector_select" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -work FinalExam -2002  $dsn/src/finalFPGA.bde
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\finalFPGA.vhd
+# Compile Entity "finalFPGA"
+# Compile Architecture "finalFPGA" of Entity "finalFPGA"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work FinalExam -2002  $dsn/src/GPP.bde
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\GPP.vhd
+# Compile Entity "GPP"
+# Compile Architecture "GPP" of Entity "GPP"
+# Warning: ELAB1_0026: GPP.bde(GPP.vhd) : (116, 0): There is no default binding for component "dataPath". (Port "selector_select" is not on the entity).
+# Compile success 0 Errors 1 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -work FinalExam -2002  $dsn/src/dataPath.bde
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\dataPath.vhd
+# Compile Entity "dataPath"
+# Compile Architecture "dataPath" of Entity "dataPath"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/dataPath.bde
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: .\dataPath.vhd
+# Compile Entity "dataPath"
+# Compile Architecture "dataPath" of Entity "dataPath"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/comparator.vhd $dsn/src/compLT.vhd $dsn/src/inMux.vhd $dsn/src/dataPath.bde $dsn/src/outMux.vhd $dsn/src/reg_file.vhd $dsn/src/register.vhd $dsn/src/selector.vhd $dsn/src/GPP.bde $dsn/src/triSt_buf.vhd $dsn/src/ALU.vhd $dsn/src/shifter.vhd $dsn/src/dispmux.vhd $dsn/src/hexdisp.vhd $dsn/src/fsm.vhd $dsn/src/GPP_TB.vhd $dsn/src/instDecoder.vhd $dsn/src/finalFPGA.bde
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\comparator.vhd
+# Compile Entity "Comparator"
+# Compile Architecture "behv" of Entity "Comparator"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\compLT.vhd
+# Compile Entity "CompLT"
+# Compile Architecture "behv" of Entity "CompLT"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\inMux.vhd
+# Compile Entity "inMux"
+# Compile Architecture "behavioral" of Entity "inMux"
+# File: .\dataPath.vhd
+# Compile Entity "dataPath"
+# Compile Architecture "dataPath" of Entity "dataPath"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\outMux.vhd
+# Compile Entity "outMux"
+# Compile Architecture "behavior" of Entity "outMux"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\reg_file.vhd
+# Compile Entity "reg_file"
+# Compile Architecture "behavioral" of Entity "reg_file"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\register.vhd
+# Compile Entity "reg"
+# Compile Architecture "behv" of Entity "reg"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\selector.vhd
+# Compile Entity "selector"
+# Compile Architecture "behavioral" of Entity "selector"
+# File: .\GPP.vhd
+# Compile Entity "GPP"
+# Compile Architecture "GPP" of Entity "GPP"
+# Warning: ELAB1_0026: GPP.bde(GPP.vhd) : (116, 0): There is no default binding for component "dataPath". (Port "selector_select" is not on the entity).
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\triSt_buf.vhd
+# Compile Entity "triBuf"
+# Compile Architecture "behavioral" of Entity "triBuf"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\ALU.vhd
+# Compile Entity "ALU"
+# Compile Architecture "behavior" of Entity "ALU"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\shifter.vhd
+# Compile Entity "shifter"
+# Compile Architecture "behavior" of Entity "shifter"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\dispmux.vhd
+# Compile Entity "MUXDISP"
+# Compile Architecture "behavioral" of Entity "MUXDISP"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\hexdisp.vhd
+# Compile Entity "hex_display"
+# Compile Architecture "behavioral_hexDisp" of Entity "hex_display"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\fsm.vhd
+# Compile Entity "FSM"
+# Compile Architecture "behv" of Entity "FSM"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\GPP_TB.vhd
+# Compile Entity "GPP_TB"
+# Compile Architecture "BENCH" of Entity "GPP_TB"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\instDecoder.vhd
+# Compile Entity "instDecoder"
+# Compile Architecture "behv1" of Entity "instDecoder"
+# File: .\finalFPGA.vhd
+# Compile Entity "finalFPGA"
+# Compile Architecture "finalFPGA" of Entity "finalFPGA"
+# Compile success 0 Errors 1 Warnings  Analysis time :  2.0 [s]
+# Running synthesis...
+# Error: Synthesis: 2 error(s), 0 warning(s)
+# Running synthesis...
+# Error: Synthesis: 2 error(s), 1 warning(s)
+acom -O3 -work FinalExam -2002  $dsn/src/outMux.vhd
+# Compile...
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\outMux.vhd
+# Compile Entity "outMux"
+# Compile Architecture "behavior" of Entity "outMux"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -work FinalExam -2002  $dsn/src/comparator.vhd $dsn/src/compLT.vhd $dsn/src/inMux.vhd $dsn/src/dataPath.bde $dsn/src/outMux.vhd $dsn/src/reg_file.vhd $dsn/src/register.vhd $dsn/src/selector.vhd $dsn/src/GPP.bde $dsn/src/triSt_buf.vhd $dsn/src/ALU.vhd $dsn/src/shifter.vhd $dsn/src/dispmux.vhd $dsn/src/hexdisp.vhd $dsn/src/fsm.vhd $dsn/src/GPP_TB.vhd $dsn/src/instDecoder.vhd $dsn/src/finalFPGA.bde
 # Compile...
 # DRC: Checking file 'c:\My_Designs\F2017_Mahoney\FinalExam\src\dataPath.bde'.
 # DRC: dataPath.bde - 0 error(s), 0 warning(s)
@@ -18,9 +284,12 @@ acom -O3 -work FinalExam -2002  $dsn/src/comparator.vhd $dsn/src/compLT.vhd $dsn
 # File: c:\My_Designs\F2017_Mahoney\FinalExam\src\inMux.vhd
 # Compile Entity "inMux"
 # Compile Architecture "behavioral" of Entity "inMux"
-# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\outmux.vhd
-# Compile Entity "outBuf"
-# Compile Architecture "behv1" of Entity "outBuf"
+# File: .\dataPath.vhd
+# Compile Entity "dataPath"
+# Compile Architecture "dataPath" of Entity "dataPath"
+# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\outMux.vhd
+# Compile Entity "outMux"
+# Compile Architecture "behavior" of Entity "outMux"
 # File: c:\My_Designs\F2017_Mahoney\FinalExam\src\reg_file.vhd
 # Compile Entity "reg_file"
 # Compile Architecture "behavioral" of Entity "reg_file"
@@ -30,16 +299,7 @@ acom -O3 -work FinalExam -2002  $dsn/src/comparator.vhd $dsn/src/compLT.vhd $dsn
 # File: c:\My_Designs\F2017_Mahoney\FinalExam\src\selector.vhd
 # Compile Entity "selector"
 # Compile Architecture "behavioral" of Entity "selector"
-# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\triSt_buf.vhd
-# Compile Entity "triBuf"
-# Compile Architecture "behavioral" of Entity "triBuf"
-# File: .\dataPath.vhd
-# Compile Entity "dataPath"
-# Compile Architecture "dataPath" of Entity "dataPath"
-# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\ALU.vhd
-# Compile Entity "ALU"
-# Compile Architecture "behavior" of Entity "ALU"
-# File: c:\My_Designs\F2017_Mahoney\FinalExam\src\shifter.vhd
-# Compile Entity "shifter"
-# Compile Architecture "behavior" of Entity "shifter"
-# Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]
+# File: .\GPP.vhd
+# Compile Entity "GPP"
+# Compile Architecture "GPP" of Entity "GPP"
+# File: c:\My_Designs\F2017_

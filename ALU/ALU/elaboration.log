@@ -1,4 +1,4 @@
-Active-HDL 9.3.2744.4995  2017-11-28 8:30:58 PM
+Active-HDL 9.3.2744.4995  2017-12-05 18:40:02
 
 Elaboration top modules:
 Architecture                  BENCH(ALU_TB)
@@ -28,9 +28,3 @@ alu                     | None
 ieee                    | Standard IEEE packages library
 std                     | Standard VHDL library
 ------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim +access +r -advdataflow ALU_TB
-
-
-The performance of simulation is reduced. Version EDU Edition

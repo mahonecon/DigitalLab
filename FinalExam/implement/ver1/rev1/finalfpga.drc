@@ -1,0 +1,17 @@
+Release 14.2 Drc P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Tue Dec 19 19:56:27 2017
+
+drc -z finalFPGA.ncd finalFPGA.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   U1/U2/cState[2]_GND_36_o_Mux_8_o is sourced by a combinatorial pin. This is
+   not good design practice. Use the CE pin to control the loading of data into
+   the flip-flop.
+WARNING:PhysDesignRules:367 - The signal <U1/U1/U9/Mram_registers11_RAMD_D1_O>
+   is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <U1/U1/U9/Mram_registers2_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 3 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

@@ -1,4 +1,4 @@
-timestamp=1511919058690
+timestamp=1512516745931
 
 [alu]
 A/behavior=21|./../src/ALU.vhd|19|1*5370
@@ -12,24 +12,24 @@ Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behavior=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [alu_tb]
-A/bench=A/BENCH 21|./../src/ALU_TB.vhd|9|1*10432
+A/bench=A/BENCH 21|./../src/ALU_TB.vhd|9|1*12066
 BinI32/bench=3*1147
 I=0*2587
-I/bench=I/BENCH 0*6043
+I/bench=I/BENCH 0*6958
 M=11|0|vb4|1511915405894|./../src/ALU_TB.vhd|0*2361*0x361396d24e89c6b686e6c82fe2ae8c230f68f719|0*2510*0x5eebbfaf24833dd780412b1f91e05209
-M/bench=M/BENCH 21|0|vb4|1511919058538|./../src/ALU_TB.vhd|0*5285*0x78d8e552e13f044f6c7f143f4cf8152e8b92d2f5|0*5957*0x856b180bf611ec746a6bfcb1befebd18
+M/bench=M/BENCH 21|0|vb4|1512516745771|./../src/ALU_TB.vhd|0*6200*0xdd00d11e645d91a99ca4151cd1200dab2b2c47a2|0*6872*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/ALU_TB.vhd|5
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/bench=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [~A]
-ModifyID=40
+ModifyID=46
 Version=73
 
 [~MFT]
-0=39|0ALU.mgf|6043|3248
-1=11|1ALU.mgf|10432|8638
-3=5|3ALU.mgf|1147|0
+0=45|0ALU.mgf|6958|4163
+1=13|1ALU.mgf|12066|10272
+3=7|3ALU.mgf|1147|0
 
 [~U]
 alu=ALU 11|0*0|

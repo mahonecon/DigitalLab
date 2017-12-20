@@ -1,0 +1,790 @@
+Release 14.2 - xst P.28xd (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to .
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to c:\My_Designs\F2017_Mahoney\FinalExam\synthesis\xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> 
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "finalFPGA.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : no
+
+---- Target Parameters
+Output File Name                   : "finalFPGA"
+Output Format                      : NGC
+Target Device                      : xc7a100tcsg324-3
+
+---- Source Options
+Top Module Name                    : finalFPGA
+Generics, Parameters               : {  }
+Verilog Macros                     : {  }
+Automatic FSM Extraction           : yes
+FSM Encoding Algorithm             : Auto
+Resource Sharing                   : yes
+FSM Style                          : lut
+RAM Extraction                     : yes
+RAM Style                          : auto
+ROM Extraction                     : yes
+ROM Style                          : auto
+Shift Register Extraction          : yes
+Shift Register Minimum Size        : 2
+Use DSP Block                      : auto
+Asynchronous To Synchronous        : no
+Automatic Register Balancing       : no
+Safe Implementation                : no
+
+---- Target Options
+Add IO Buffers                     : yes
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : yes
+Equivalent register Removal        : yes
+Pack IO Registers into IOBs        : auto
+LUT Combining                      : auto
+Reduce Control Sets                : auto
+Optimize Instantiated Primitives   : no
+Use Clock Enable                   : auto
+Use Synchronous Set                : auto
+Use Synchronous Reset              : auto
+
+---- General Options
+Optimization Goal                  : speed
+Optimization Effort                : 1
+Power Reduction                    : no
+Global Optimization                : allclocknets
+RTL Output                         : yes
+Write Timing Constraints           : no
+Keep Hierarchy                     : no
+Netlist Hierarchy                  : as_optimized
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Cross Clock Analysis               : no
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Read Cores                         : yes
+Auto BRAM Packing                  : no
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\comparator.vhd" into library FinalExam
+Parsing entity <Comparator>.
+Parsing architecture <behv> of entity <comparator>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\compLT.vhd" into library FinalExam
+Parsing entity <CompLT>.
+Parsing architecture <behv> of entity <complt>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\inMux.vhd" into library FinalExam
+Parsing entity <inMux>.
+Parsing architecture <behavioral> of entity <inmux>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\compile\dataPath.vhd" into library FinalExam
+Parsing entity <dataPath>.
+Parsing architecture <dataPath> of entity <datapath>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\outMux.vhd" into library FinalExam
+Parsing entity <outMux>.
+Parsing architecture <behavior> of entity <outmux>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\reg_file.vhd" into library FinalExam
+Parsing entity <reg_file>.
+Parsing architecture <behavioral> of entity <reg_file>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\register.vhd" into library FinalExam
+Parsing entity <reg>.
+Parsing architecture <behv> of entity <reg>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\selector.vhd" into library FinalExam
+Parsing entity <selector>.
+Parsing architecture <behavioral> of entity <selector>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\compile\GPP.vhd" into library FinalExam
+Parsing entity <GPP>.
+Parsing architecture <GPP> of entity <gpp>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\triSt_buf.vhd" into library FinalExam
+Parsing entity <triBuf>.
+Parsing architecture <behavioral> of entity <tribuf>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\ALU.vhd" into library FinalExam
+Parsing entity <ALU>.
+Parsing architecture <behavior> of entity <alu>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\shifter.vhd" into library FinalExam
+Parsing entity <shifter>.
+Parsing architecture <behavior> of entity <shifter>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\dispmux.vhd" into library FinalExam
+Parsing entity <MUXDISP>.
+Parsing architecture <behavioral> of entity <muxdisp>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\hexdisp.vhd" into library FinalExam
+Parsing entity <hex_display>.
+Parsing architecture <behavioral_hexDisp> of entity <hex_display>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\fsm.vhd" into library FinalExam
+Parsing entity <FSM>.
+Parsing architecture <behv> of entity <fsm>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\src\instDecoder.vhd" into library FinalExam
+Parsing entity <instDecoder>.
+Parsing architecture <behv1> of entity <instdecoder>.
+Parsing VHDL file "C:\My_Designs\F2017_Mahoney\FinalExam\compile\finalFPGA.vhd" into library FinalExam
+Parsing entity <finalFPGA>.
+Parsing architecture <finalFPGA> of entity <finalfpga>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <finalFPGA> (architecture <finalFPGA>) from library <finalexam>.
+
+Elaborating entity <GPP> (architecture <GPP>) from library <finalexam>.
+
+Elaborating entity <dataPath> (architecture <dataPath>) from library <finalexam>.
+
+Elaborating entity <inMux> (architecture <behavioral>) from library <finalexam>.
+
+Elaborating entity <selector> (architecture <behavioral>) from library <finalexam>.
+
+Elaborating entity <CompLT> (architecture <behv>) from library <finalexam>.
+WARNING:HDLCompiler:92 - "C:\My_Designs\F2017_Mahoney\FinalExam\src\compLT.vhd" Line 28: b should be on the sensitivity list of the process
+
+Elaborating entity <Comparator> (architecture <behv>) from library <finalexam>.
+WARNING:HDLCompiler:92 - "C:\My_Designs\F2017_Mahoney\FinalExam\src\comparator.vhd" Line 28: b should be on the sensitivity list of the process
+
+Elaborating entity <ALU> (architecture <behavior>) from library <finalexam>.
+INFO:HDLCompiler:679 - "C:\My_Designs\F2017_Mahoney\FinalExam\src\ALU.vhd" Line 43. Case statement is complete. others clause is never selected
+
+Elaborating entity <shifter> (architecture <behavior>) from library <finalexam>.
+WARNING:HDLCompiler:92 - "C:\My_Designs\F2017_Mahoney\FinalExam\src\shifter.vhd" Line 31: in_left should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\My_Designs\F2017_Mahoney\FinalExam\src\shifter.vhd" Line 33: in_right should be on the sensitivity list of the process
+
+Elaborating entity <triBuf> (architecture <behavioral>) from library <finalexam>.
+
+Elaborating entity <reg> (architecture <behv>) from library <finalexam>.
+
+Elaborating entity <reg_file> (architecture <behavioral>) with generics from library <finalexam>.
+WARNING:HDLCompiler:92 - "C:\My_Designs\F2017_Mahoney\FinalExam\src\reg_file.vhd" Line 31: we should be on the sensitivity list of the process
+
+Elaborating entity <FSM> (architecture <behv>) from library <finalexam>.
+
+Elaborating entity <instDecoder> (architecture <behv1>) from library <finalexam>.
+
+Elaborating entity <outMux> (architecture <behavior>) from library <finalexam>.
+WARNING:HDLCompiler:89 - "C:\My_Designs\F2017_Mahoney\FinalExam\compile\finalFPGA.vhd" Line 76: <bufg> remains a black-box since it has no binding entity.
+
+Elaborating entity <MUXDISP> (architecture <behavioral>) from library <finalexam>.
+
+Elaborating entity <hex_display> (architecture <behavioral_hexDisp>) from library <finalexam>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <finalFPGA>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\compile\finalFPGA.vhd".
+    Summary:
+	no macro.
+Unit <finalFPGA> synthesized.
+
+Synthesizing Unit <GPP>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\compile\GPP.vhd".
+    Summary:
+	no macro.
+Unit <GPP> synthesized.
+
+Synthesizing Unit <dataPath>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\compile\dataPath.vhd".
+    Summary:
+	no macro.
+Unit <dataPath> synthesized.
+
+Synthesizing Unit <inMux>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\inMux.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <inMux> synthesized.
+
+Synthesizing Unit <selector>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\selector.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <selector> synthesized.
+
+Synthesizing Unit <CompLT>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\compLT.vhd".
+    Found 8-bit comparator greater for signal <result> created at line 28
+    Summary:
+	inferred   1 Comparator(s).
+Unit <CompLT> synthesized.
+
+Synthesizing Unit <Comparator>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\comparator.vhd".
+    Found 8-bit comparator equal for signal <result> created at line 28
+    Summary:
+	inferred   1 Comparator(s).
+Unit <Comparator> synthesized.
+
+Synthesizing Unit <ALU>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\ALU.vhd".
+    Found 8-bit adder for signal <a[7]_b[7]_add_5_OUT> created at line 40.
+    Found 8-bit adder for signal <a[7]_GND_13_o_add_7_OUT> created at line 42.
+    Found 8-bit subtractor for signal <GND_13_o_GND_13_o_sub_5_OUT<7:0>> created at line 39.
+    Found 8-bit subtractor for signal <GND_13_o_GND_13_o_sub_7_OUT<7:0>> created at line 41.
+    Found 8-bit 8-to-1 multiplexer for signal <output> created at line 34.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   8 Multiplexer(s).
+Unit <ALU> synthesized.
+
+Synthesizing Unit <shifter>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\shifter.vhd".
+WARNING:Xst:737 - Found 1-bit latch for signal <output<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <output<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <output<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <output<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <output<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <output<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <output<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <output<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   8 Latch(s).
+	inferred  18 Multiplexer(s).
+Unit <shifter> synthesized.
+
+Synthesizing Unit <triBuf>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\triSt_buf.vhd".
+    Found 1-bit tristate buffer for signal <output<7>> created at line 27
+    Found 1-bit tristate buffer for signal <output<6>> created at line 27
+    Found 1-bit tristate buffer for signal <output<5>> created at line 27
+    Found 1-bit tristate buffer for signal <output<4>> created at line 27
+    Found 1-bit tristate buffer for signal <output<3>> created at line 27
+    Found 1-bit tristate buffer for signal <output<2>> created at line 27
+    Found 1-bit tristate buffer for signal <output<1>> created at line 27
+    Found 1-bit tristate buffer for signal <output<0>> created at line 27
+    Summary:
+	inferred   8 Tristate(s).
+Unit <triBuf> synthesized.
+
+Synthesizing Unit <reg>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\register.vhd".
+    Found 8-bit register for signal <Q_tmp>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <reg> synthesized.
+
+Synthesizing Unit <reg_file>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\reg_file.vhd".
+        dw = 8
+        size = 8
+        adrw = 3
+WARNING:Xst:647 - Input <rea> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <reb> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8x8-bit dual-port RAM <Mram_registers> for signal <registers>.
+    Summary:
+	inferred   2 RAM(s).
+Unit <reg_file> synthesized.
+
+Synthesizing Unit <FSM>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\fsm.vhd".
+    Found 3-bit register for signal <cState>.
+    Found finite state machine <FSM_0> for signal <cState>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 11                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 16                                             |
+    | Clock              | clock (rising_edge)                            |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | s0                                             |
+    | Power Up State     | s0                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 1-bit latch for signal <in_sel>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Latch(s).
+	inferred   1 Finite State Machine(s).
+Unit <FSM> synthesized.
+
+Synthesizing Unit <instDecoder>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\instDecoder.vhd".
+    Summary:
+	no macro.
+Unit <instDecoder> synthesized.
+
+Synthesizing Unit <outMux>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\outMux.vhd".
+    Summary:
+	no macro.
+Unit <outMux> synthesized.
+
+Synthesizing Unit <MUXDISP>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\dispmux.vhd".
+    Found 14-bit register for signal <gen_display.d_clk>.
+    Found 2-bit register for signal <cur_digit>.
+    Found 2-bit adder for signal <cur_digit[1]_GND_39_o_add_1_OUT> created at line 99.
+    Found 14-bit adder for signal <gen_display.d_clk[13]_GND_39_o_add_3_OUT> created at line 103.
+    Found 4x8-bit Read Only RAM for signal <digits>
+    Found 4-bit 4-to-1 multiplexer for signal <digit_data> created at line 51.
+    Summary:
+	inferred   1 RAM(s).
+	inferred   2 Adder/Subtractor(s).
+	inferred  16 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <MUXDISP> synthesized.
+
+Synthesizing Unit <hex_display>.
+    Related source file is "C:\My_Designs\F2017_Mahoney\FinalExam\src\hexdisp.vhd".
+    Found 16x7-bit Read Only RAM for signal <segs>
+    Summary:
+	inferred   1 RAM(s).
+Unit <hex_display> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 16x7-bit single-port Read Only RAM                    : 1
+ 4x8-bit single-port Read Only RAM                     : 1
+ 8x8-bit dual-port RAM                                 : 2
+# Adders/Subtractors                                   : 3
+ 14-bit adder                                          : 1
+ 2-bit adder                                           : 1
+ 8-bit addsub                                          : 1
+# Registers                                            : 3
+ 14-bit register                                       : 1
+ 2-bit register                                        : 1
+ 8-bit register                                        : 1
+# Latches                                              : 9
+ 1-bit latch                                           : 9
+# Comparators                                          : 2
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 29
+ 1-bit 2-to-1 multiplexer                              : 19
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 9
+# Tristates                                            : 8
+ 1-bit tristate buffer                                 : 8
+# FSMs                                                 : 1
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1294 - Latch <output_6> is equivalent to a wire in block <U6>.
+WARNING:Xst:1294 - Latch <output_3> is equivalent to a wire in block <U6>.
+WARNING:Xst:1294 - Latch <output_5> is equivalent to a wire in block <U6>.
+WARNING:Xst:1294 - Latch <output_4> is equivalent to a wire in block <U6>.
+WARNING:Xst:1294 - Latch <output_2> is equivalent to a wire in block <U6>.
+WARNING:Xst:1294 - Latch <output_1> is equivalent to a wire in block <U6>.
+WARNING:Xst:1294 - Latch <output_7> is equivalent to a wire in block <U6>.
+WARNING:Xst:1294 - Latch <output_0> is equivalent to a wire in block <U6>.
+
+Synthesizing (advanced) Unit <MUXDISP>.
+The following registers are absorbed into counter <gen_display.d_clk>: 1 register on signal <gen_display.d_clk>.
+The following registers are absorbed into counter <cur_digit>: 1 register on signal <cur_digit>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_digits> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 8-bit                      |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <cur_digit>     |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <digits>        |          |
+    -----------------------------------------------------------------------
+Unit <MUXDISP> synthesized (advanced).
+
+Synthesizing (advanced) Unit <hex_display>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_segs> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 7-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <data>          |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <segs>          |          |
+    -----------------------------------------------------------------------
+Unit <hex_display> synthesized (advanced).
+
+Synthesizing (advanced) Unit <reg_file>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_registers> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we>            | high     |
+    |     addrA          | connected to signal <wa>            |          |
+    |     diA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     addrB          | connected to signal <raa>           |          |
+    |     doB            | connected to signal <busA>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_registers1> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <we>            | high     |
+    |     addrA          | connected to signal <wa>            |          |
+    |     diA            | connected to signal <data>          |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 8-word x 8-bit                      |          |
+    |     addrB          | connected to signal <rab>           |          |
+    |     doB            | connected to signal <busB>          |          |
+    -----------------------------------------------------------------------
+Unit <reg_file> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 16x7-bit single-port distributed Read Only RAM        : 1
+ 4x8-bit single-port distributed Read Only RAM         : 1
+ 8x8-bit dual-port distributed RAM                     : 2
+# Adders/Subtractors                                   : 1
+ 8-bit addsub                                          : 1
+# Counters                                             : 2
+ 14-bit up counter                                     : 1
+ 2-bit up counter                                      : 1
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Comparators                                          : 2
+ 8-bit comparator equal                                : 1
+ 8-bit comparator greater                              : 1
+# Multiplexers                                         : 29
+ 1-bit 2-to-1 multiplexer                              : 19
+ 4-bit 4-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 9
+# FSMs                                                 : 1
+# Xors                                                 : 1
+ 8-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1294 - Latch <output_6> is equivalent to a wire in block <shifter>.
+WARNING:Xst:1294 - Latch <output_3> is equivalent to a wire in block <shifter>.
+WARNING:Xst:1294 - Latch <output_5> is equivalent to a wire in block <shifter>.
+WARNING:Xst:1294 - Latch <output_4> is equivalent to a wire in block <shifter>.
+WARNING:Xst:1294 - Latch <output_2> is equivalent to a wire in block <shifter>.
+WARNING:Xst:1294 - Latch <output_1> is equivalent to a wire in block <shifter>.
+WARNING:Xst:1294 - Latch <output_7> is equivalent to a wire in block <shifter>.
+WARNING:Xst:1294 - Latch <output_0> is equivalent to a wire in block <shifter>.
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <cState[1:8]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ s0    | 00000001
+ s1    | 00000010
+ s2    | 00000100
+ s3    | 00001000
+ s4    | 00100000
+ s5    | 01000000
+ s6    | 10000000
+ s7    | 00010000
+-------------------
+WARNING:Xst:2042 - Unit triBuf: 8 internal tristates are replaced by logic (pull-up yes): output<0>, output<1>, output<2>, output<3>, output<4>, output<5>, output<6>, output<7>.
+
+Optimizing unit <reg> ...
+
+Optimizing unit <finalFPGA> ...
+
+Optimizing unit <dataPath> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <triBuf> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block finalFPGA, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 32
+ Flip-Flops                                            : 32
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : finalFPGA.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 140
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 13
+#      LUT2                        : 12
+#      LUT3                        : 11
+#      LUT4                        : 16
+#      LUT5                        : 17
+#      LUT6                        : 24
+#      MUXCY                       : 20
+#      VCC                         : 1
+#      XORCY                       : 22
+# FlipFlops/Latches                : 33
+#      FDC                         : 21
+#      FDCE                        : 10
+#      FDP                         : 1
+#      LD                          : 1
+# RAMS                             : 6
+#      RAM32M                      : 2
+#      RAM32X1D                    : 4
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 34
+#      IBUF                        : 18
+#      IBUFG                       : 1
+#      OBUF                        : 15
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              33  out of  126800     0%  
+ Number of Slice LUTs:                  112  out of  63400     0%  
+    Number used as Logic:                96  out of  63400     0%  
+    Number used as Memory:               16  out of  19000     0%  
+       Number used as RAM:               16
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    114
+   Number with an unused Flip Flop:      81  out of    114    71%  
+   Number with an unused LUT:             2  out of    114     1%  
+   Number of fully used LUT-FF pairs:    31  out of    114    27%  
+   Number of unique control sets:         4
+
+IO Utilization: 
+ Number of IOs:                          34
+ Number of bonded IOBs:                  34  out of    210    16%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                | Clock buffer(FF name)  | Load  |
+------------------------------------------------------------+------------------------+-------+
+U1/U2/cState[2]_GND_36_o_Mux_8_o(U1/U2/cState__n0024<21>1:O)| NONE(*)(U1/U2/in_sel)  | 1     |
+clock                                                       | IBUFG+BUFG             | 38    |
+------------------------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.808ns (Maximum Frequency: 262.626MHz)
+   Minimum input arrival time before clock: 1.943ns
+   Maximum output required time after clock: 2.012ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 3.808ns (frequency: 262.626MHz)
+  Total number of paths / destination ports: 3057 / 84
+-------------------------------------------------------------------------
+Delay:               3.808ns (Levels of Logic = 9)
+  Source:            U1/U2/cState_FSM_FFd3 (FF)
+  Destination:       U1/U1/U9/Mram_registers11 (RAM)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: U1/U2/cState_FSM_FFd3 to U1/U1/U9/Mram_registers11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.361   0.525  U1/U2/cState_FSM_FFd3 (U1/U2/cState_FSM_FFd3)
+     LUT3:I0->O            5   0.097   0.298  U1/U2/cState__n0024<9>1 (U1/BUS289<9>)
+     RAM32M:ADDRA1->DOA0    5   0.299   0.398  U1/U1/U9/Mram_registers11 (U1/U1/BUS993<0>)
+     LUT5:I3->O            1   0.097   0.000  U1/U1/U5/Mmux_output6_rs_lut<0> (U1/U1/U5/Mmux_output6_rs_lut<0>)
+     MUXCY:S->O            1   0.353   0.000  U1/U1/U5/Mmux_output6_rs_cy<0> (U1/U1/U5/Mmux_output6_rs_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  U1/U1/U5/Mmux_output6_rs_cy<1> (U1/U1/U5/Mmux_output6_rs_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  U1/U1/U5/Mmux_output6_rs_cy<2> (U1/U1/U5/Mmux_output6_rs_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  U1/U1/U5/Mmux_output6_rs_cy<3> (U1/U1/U5/Mmux_output6_rs_cy<3>)
+     XORCY:CI->O           2   0.370   0.299  U1/U1/U5/Mmux_output6_rs_xor<4> (U1/U1/U5/Mmux_output6_split<4>)
+     LUT6:I5->O            2   0.097   0.283  U1/U1/U2/Mmux_output51 (U1/U1/BUS318<4>)
+     RAM32M:DIC0               0.260          U1/U1/U9/Mram_registers2
+    ----------------------------------------
+    Total                      3.808ns (2.003ns logic, 1.805ns route)
+                                       (52.6% logic, 47.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 66 / 50
+-------------------------------------------------------------------------
+Offset:              1.943ns (Levels of Logic = 3)
+  Source:            y<4> (PAD)
+  Destination:       U1/U1/U9/Mram_registers11 (RAM)
+  Destination Clock: clock rising
+
+  Data Path: y<4> to U1/U1/U9/Mram_registers11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.511  y_4_IBUF (y_4_IBUF)
+     LUT3:I0->O            1   0.097   0.693  U1/U1/U5/Mmux_output751_SW1 (N17)
+     LUT6:I0->O            2   0.097   0.283  U1/U1/U2/Mmux_output51 (U1/U1/BUS318<4>)
+     RAM32M:DIC0               0.260          U1/U1/U9/Mram_registers2
+    ----------------------------------------
+    Total                      1.943ns (0.455ns logic, 1.488ns route)
+                                       (23.4% logic, 76.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 120 / 11
+-------------------------------------------------------------------------
+Offset:              2.012ns (Levels of Logic = 3)
+  Source:            U4/cur_digit_1 (FF)
+  Destination:       display<6> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: U4/cur_digit_1 to display<6>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             9   0.361   0.593  U4/cur_digit_1 (U4/cur_digit_1)
+     LUT4:I0->O            7   0.097   0.584  U4/Mmux_digit_data41 (U4/digit_data<3>)
+     LUT4:I0->O            1   0.097   0.279  U4/u1/Mram_segs51 (display_5_OBUF)
+     OBUF:I->O                 0.000          display_5_OBUF (display<5>)
+    ----------------------------------------
+    Total                      2.012ns (0.555ns logic, 1.457ns route)
+                                       (27.6% logic, 72.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock U1/U2/cState[2]_GND_36_o_Mux_8_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |         |         |    0.696|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock
+--------------------------------+---------+---------+---------+---------+
+                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------------+---------+---------+---------+---------+
+U1/U2/cState[2]_GND_36_o_Mux_8_o|         |    2.314|         |         |
+clock                           |    3.808|         |         |         |
+--------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.83 secs
+ 
+--> 
+
+Total memory usage is 470440 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   34 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+

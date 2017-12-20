@@ -74,6 +74,9 @@ use IEEE.std_logic_arith.all;
 use IEEE.std_logic_signed.all;
 use IEEE.std_logic_unsigned.all;
 ##########
+LIBTREE EXPANDED NODES
+XILINX
+##########
 PAGE_DEFAULT_HEIGHT
 1700
 ##########

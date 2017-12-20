@@ -1,0 +1,99 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -v 3 -s 3 -n 3 -fastpaths
+map.ncd finalFPGA.pcf -o finalFPGA_postmap.twr
+
+Design file:              map.ncd
+Physical constraint file: finalFPGA.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (ADVANCED 1.04 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |   -1.513(R)|      SLOW  |    2.386(R)|      FAST  |NET174            |   0.000|
+start       |   -1.411(R)|      SLOW  |    1.888(R)|      SLOW  |NET174            |   0.000|
+x<0>        |   -0.804(R)|      SLOW  |    1.564(R)|      SLOW  |NET174            |   0.000|
+x<1>        |   -0.877(R)|      SLOW  |    1.731(R)|      SLOW  |NET174            |   0.000|
+x<2>        |   -0.708(R)|      SLOW  |    1.483(R)|      SLOW  |NET174            |   0.000|
+x<3>        |   -1.288(R)|      SLOW  |    2.067(R)|      SLOW  |NET174            |   0.000|
+x<4>        |   -0.980(R)|      SLOW  |    1.747(R)|      SLOW  |NET174            |   0.000|
+x<5>        |   -1.230(R)|      SLOW  |    1.966(R)|      SLOW  |NET174            |   0.000|
+x<6>        |   -0.642(R)|      SLOW  |    1.606(R)|      SLOW  |NET174            |   0.000|
+x<7>        |   -1.065(R)|      SLOW  |    2.059(R)|      SLOW  |NET174            |   0.000|
+y<0>        |   -0.945(R)|      SLOW  |    1.705(R)|      SLOW  |NET174            |   0.000|
+y<1>        |   -1.002(R)|      SLOW  |    1.856(R)|      SLOW  |NET174            |   0.000|
+y<2>        |   -0.954(R)|      SLOW  |    1.730(R)|      SLOW  |NET174            |   0.000|
+y<3>        |   -1.116(R)|      SLOW  |    1.895(R)|      SLOW  |NET174            |   0.000|
+y<4>        |   -0.967(R)|      SLOW  |    1.734(R)|      SLOW  |NET174            |   0.000|
+y<5>        |   -1.052(R)|      SLOW  |    1.788(R)|      SLOW  |NET174            |   0.000|
+y<6>        |   -0.629(R)|      SLOW  |    1.593(R)|      SLOW  |NET174            |   0.000|
+y<7>        |   -0.887(R)|      SLOW  |    1.881(R)|      SLOW  |NET174            |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+digits<0>   |        11.208(R)|      SLOW  |         7.135(R)|      FAST  |NET174            |   0.000|
+digits<1>   |        11.373(R)|      SLOW  |         7.207(R)|      FAST  |NET174            |   0.000|
+digits<2>   |        11.038(R)|      SLOW  |         6.970(R)|      FAST  |NET174            |   0.000|
+digits<3>   |        10.591(R)|      SLOW  |         6.430(R)|      FAST  |NET174            |   0.000|
+display<0>  |        12.504(R)|      SLOW  |         7.422(R)|      FAST  |NET174            |   0.000|
+display<1>  |        12.303(R)|      SLOW  |         7.418(R)|      FAST  |NET174            |   0.000|
+display<2>  |        12.392(R)|      SLOW  |         7.422(R)|      FAST  |NET174            |   0.000|
+display<3>  |        12.563(R)|      SLOW  |         7.410(R)|      FAST  |NET174            |   0.000|
+display<4>  |        12.276(R)|      SLOW  |         7.252(R)|      FAST  |NET174            |   0.000|
+display<5>  |        12.234(R)|      SLOW  |         7.360(R)|      FAST  |NET174            |   0.000|
+display<6>  |        11.962(R)|      SLOW  |         7.017(R)|      FAST  |NET174            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    3.965|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Dec 19 19:55:38 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 632 MB
+
+
+

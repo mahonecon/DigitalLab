@@ -1,154 +1,264 @@
-timestamp=1512519013583
+timestamp=1513730207823
 
 [alu]
-A/behavior=21|./../src/ALU.vhd|19|1*58404
-BinI32/behavior=3*8372
-I=0*7889
-I/behavior=0*25278
+A/behavior=21|./../src/ALU.vhd|19|1*241012
+BinI32/behavior=3*23144
+I=0*22006
+I/behavior=0*82956
 M=11|0|vb4|1512517848129|./../src/ALU.vhd|0*6713*0xc2b03849a941e40c591f5ee7a71be666ea98402c|0*7046*0x5eebbfaf24833dd780412b1f91e05209
-M/behavior=21|0|vb4|1512519013325|./../src/ALU.vhd|0*7117*0x2796cdfc25d3ef27577bb6a73cde4a8a4ddfdc63|0*7573*0x856b180bf611ec746a6bfcb1befebd18
+M/behavior=21|0|vb4|1513730124257|./../src/ALU.vhd|0*7117*0x2796cdfc25d3ef27577bb6a73cde4a8a4ddfdc63|0*7573*0x856b180bf611ec746a6bfcb1befebd18
 NSymbols/alu=NSymbols/ALU 40|0|2*11983
 R=./../src/ALU.vhd|8
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behavior=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [comparator]
-A/behv=21|./../src/comparator.vhd|21|1*30904
-BinI32/behv=3*5092
-I=0*8552
-I/behv=0*19780
+A/behv=21|./../src/comparator.vhd|21|1*202287
+BinI32/behv=3*19725
+I=0*22669
+I/behv=0*72393
 M=11|0|vb4|1512517270768|./../src/comparator.vhd|0*0*0xd88c92c9f1f3c39c49fa0036be8fd04dcff64a53|0*265*0x5eebbfaf24833dd780412b1f91e05209
-M/behv=21|0|vb4|1512519012128|./../src/comparator.vhd|0*350*0x9b988f34c34051532efcba6b5e91e7c66633488a|0*554*0x856b180bf611ec746a6bfcb1befebd18
+M/behv=21|0|vb4|1513730122981|./../src/comparator.vhd|0*350*0x9b988f34c34051532efcba6b5e91e7c66633488a|0*554*0x856b180bf611ec746a6bfcb1befebd18
 NSymbols/comparator=NSymbols/Comparator 40|0|2*10277
 R=./../src/comparator.vhd|11
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behv=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [complt]
-A/behv=21|./../src/compLT.vhd|21|1*32027
-BinI32/behv=3*5367
-I=0*9083
-I/behv=0*19958
+A/behv=21|./../src/compLT.vhd|21|1*203410
+BinI32/behv=3*20000
+I=0*23200
+I/behv=0*72571
 M=11|0|vb4|1512517271541|./../src/compLT.vhd|0*647*0xcb11f23414f274e01a1f900162ae6387b90e52ef|0*896*0x5eebbfaf24833dd780412b1f91e05209
-M/behv=21|0|vb4|1512519012284|./../src/compLT.vhd|0*973*0x83b3d973f17e1e8c6160218c744342e4c6f90c4d|0*1165*0x856b180bf611ec746a6bfcb1befebd18
+M/behv=21|0|vb4|1513730123139|./../src/compLT.vhd|0*973*0x83b3d973f17e1e8c6160218c744342e4c6f90c4d|0*1165*0x856b180bf611ec746a6bfcb1befebd18
 NSymbols/complt=NSymbols/CompLT 40|0|2*8579
 R=./../src/compLT.vhd|11
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behv=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [datapath]
-A/datapath=A/dataPath 24|.\..\src\dataPath.bde|10000|1*43332
-BinI32/datapath=3*8019
-I=0*15588
-I/datapath=I/dataPath 0*24488
-M=11|0|vb4|1512518814123|./../compile/dataPath.vhd|0*14678*0xaaf6b39d02d86a265064476f7cd9f7fae614f22d|0*15503*0x5eebbfaf24833dd780412b1f91e05209
-M/datapath=M/dataPath 21|0|vb4|1512519013191|./../compile/dataPath.vhd|0*21388*0xae8a6ee39e29064e8f7de44a19317ffb0d091a24|0*24391*0x856b180bf611ec746a6bfcb1befebd18
+A/datapath=A/dataPath 24|.\..\src\dataPath.bde|10000|1*205908
+BinI32/datapath=3*20520
+I=0*74520
+I/datapath=I/dataPath 0*77928
+M=11|0|vb4|1513730123408|./../compile/dataPath.vhd|0*73611*0xfa7b0d1f514a200b87b5949c16c2c88241fda4a7|0*74435*0x5eebbfaf24833dd780412b1f91e05209
+M/datapath=M/dataPath 21|0|vb4|1513730123411|./../compile/dataPath.vhd|0*74822*0x4b40b1fbcc3e41076c8202dc247d994a3df0be74|0*77831*0x856b180bf611ec746a6bfcb1befebd18
 R=./../compile/dataPath.vhd|31
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/datapath=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
+[dispmux]
+A/behavioral=21|./../src/dispmux.vhd|14|1*54943
+BinI32/behavioral=3*8817
+I=0*35741
+I/behavioral=0*35976
+M=11|0|vb4|1513729155710|./../src/dispmux.vhd|0*35283*0x0b6394fc32de4263cc563bdfc5979ad8812a1d7e|0*35662*0x5eebbfaf24833dd780412b1f91e05209
+M/behavioral=21|0|vb4|1513729155715|./../src/dispmux.vhd|0*12511*0x5208e503285b842ca52d004b9352f5bd38a9fa69|0*13408*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/dispmux=NSymbols/DISPMUX 40|0|2*22657
+R=./../src/dispmux.vhd|6
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[finalfpga]
+A/finalfpga=A/finalFPGA 24|.\..\src\finalFPGA.bde|10000|1*256166
+I=0*39460
+I/finalfpga=I/finalFPGA 0*85727
+M=11|0|vb4|1513729505392|./../compile/finalFPGA.vhd|0*38844*0x5eb749e9eab41ca31fa556ce67078c0e95642165|0*39373*0x5eebbfaf24833dd780412b1f91e05209
+M/finalfpga=M/finalFPGA 21|0|vb4|1513730125222|./../compile/finalFPGA.vhd|0*84506*0x9ed0ac0d14d037692d369efc3696f74a9e9890e6|0*85627*0x856b180bf611ec746a6bfcb1befebd18
+R=./../compile/finalFPGA.vhd|35
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/finalfpga=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[fsm]
+A/behv=21|./../src/fsm.vhd|13|1*249799
+BinI32/behv=3*26355
+I=0*26308
+I/behv=0*84002
+M=11|0|vb4|1513728842953|./../src/fsm.vhd|0*14257*0xc6dd1bbe93cd0368bb39ce43886c3772cd19069b|0*14605*0x5eebbfaf24833dd780412b1f91e05209
+M/behv=21|0|vb4|1513730124804|./../src/fsm.vhd|0*14676*0x4e5a2e95fa80c7c1b0adc2e6e026e173b86a20be|0*15710*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/fsm.vhd|5
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behv=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[gpp]
+A/gpp=A/GPP 24|.\..\src\GPP.bde|10000|1*228584
+I=0*27024
+I/gpp=I/GPP 0*82247
+M=11|0|vb4|1513728857262|./../compile/GPP.vhd|0*17332*0xa02c90447c4ff85218a1a84385b97aa11e9fce7c|0*17748*0x5eebbfaf24833dd780412b1f91e05209
+M/gpp=M/GPP 21|0|vb4|1513730124113|./../compile/GPP.vhd|0*79622*0x0d0931d0d01faf4db74e12e0ef993124ea5e3887|0*82165*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/gpp=NSymbols/GPP 40|0|2*18528
+R=./../compile/GPP.vhd|28
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/gpp=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[gpp_tb]
+A/bench=A/BENCH 21|./../src/GPP_TB.vhd|9|1*252110
+BinI32/bench=3*27244
+I=0*27441
+I/bench=I/BENCH 0*84238
+M=11|0|vb4|1513728843720|./../src/GPP_TB.vhd|0*15789*0x957397a0a9f8e6f270e7c99a6fc6f8a2f4049782|0*15938*0x5eebbfaf24833dd780412b1f91e05209
+M/bench=M/BENCH 21|0|vb4|1513730124941|./../src/GPP_TB.vhd|0*17823*0xdb9c628c543771f554b74c30bb8e590c28472539|0*18449*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/GPP_TB.vhd|5
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/bench=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[hex_display]
+A/behavioral_hexdisp=A/behavioral_hexDisp 21|./../src/hexdisp.vhd|11|1*247963
+BinI32/behavioral_hexdisp=3*25757
+I=0*27876
+I/behavioral_hexdisp=I/behavioral_hexDisp 0*83744
+M=11|0|vb4|1513728621734|./../src/hexdisp.vhd|0*11666*0x68fd9cd46461b97e152dc3795feebfa22b11907b|0*11970*0x5eebbfaf24833dd780412b1f91e05209
+M/behavioral_hexdisp=M/behavioral_hexDisp 21|0|vb4|1513730124667|./../src/hexdisp.vhd|0*13501*0x14ef7349057f219f528e1f0206aaeb94edc23be5|0*14152*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/hexdisp.vhd|6
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral_hexdisp=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
 [inmux]
-A/behavioral=21|./../src/inMux.vhd|20|1*33142
-BinI32/behavioral=3*5642
-I=0*9635
-I/behavioral=0*20132
+A/behavioral=21|./../src/inMux.vhd|20|1*204525
+BinI32/behavioral=3*20275
+I=0*28582
+I/behavioral=0*72745
 M=11|0|vb4|1512517272226|./../src/inMux.vhd|0*1250*0x1febfba531d6a4027b4ca9d0461cd9f955402f04|0*1558*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=21|0|vb4|1512519012409|./../src/inMux.vhd|0*1633*0x0bd0dee330c22840f4325622ac75fef5820212fd|0*1851*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=21|0|vb4|1513730123276|./../src/inMux.vhd|0*1633*0x0bd0dee330c22840f4325622ac75fef5820212fd|0*1851*0x856b180bf611ec746a6bfcb1befebd18
 NSymbols/inmux=NSymbols/inMux 40|0|2*0
 R=./../src/inMux.vhd|8
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
+[instdecoder]
+A/behv1=21|./../src/instDecoder.vhd|16|1*253955
+BinI32/behv1=3*27845
+I=0*29527
+I/behv1=0*84395
+M=11|0|vb4|1513728844793|./../src/instDecoder.vhd|0*16015*0xf10551e4024155ac1091890eee4ebd20eac33209|0*16399*0x5eebbfaf24833dd780412b1f91e05209
+M/behv1=21|0|vb4|1513730125079|./../src/instDecoder.vhd|0*16486*0x585fe8ba3ef21e62d64958f0e3d1d7410f51b0b9|0*17236*0x856b180bf611ec746a6bfcb1befebd18
+R=./../src/instDecoder.vhd|7
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behv1=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[muxdisp]
+A/behavioral=21|./../src/dispmux.vhd|29|1*244416
+BinI32/behavioral=3*24956
+I=0*36990
+I/behavioral=0*83440
+M=11|0|vb4|1513729441447|./../src/dispmux.vhd|0*36530*0xf979a73f127f9ff36b12ac98f3a97d89e8550596|0*36911*0x5eebbfaf24833dd780412b1f91e05209
+M/behavioral=21|0|vb4|1513730124529|./../src/dispmux.vhd|0*37225*0xe79684299b8b0acbe0ae50c311619ce8dceefbdc|0*38142*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/muxdisp=NSymbols/MUXDISP 40|0|2*25107
+R=./../src/dispmux.vhd|11
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
 [outbuf]
-A/behv1=21|./../src/outmux.vhd|18|1*34525
-BinI32/behv1=3*5887
-I=0*10274
-I/behv1=0*20376
+A/behv1=21|./../src/outmux.vhd|18|1*43269
+BinI32/behv1=3*5716
+I=0*29905
+I/behv1=0*30005
 M=11|0|vb4|1512517272995|./../src/outmux.vhd|0*1940*0xea9e818367cdab101eabfb7ad71794b9a159ec0a|0*2166*0x5eebbfaf24833dd780412b1f91e05209
 M/behv1=21|0|vb4|1512519012543|./../src/outmux.vhd|0*2243*0x6a84e7984c506287fe3f5555f0ed8ba257937130|0*2387*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/outmux.vhd|11
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behv1=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
+[outmux]
+A/behavior=21|./../src/outMux.vhd|17|1*262102
+BinI32/behavior=3*28376
+I=0*30269
+I/behavior=0*86565
+M=11|0|vb4|1513728884182|./../src/outMux.vhd|0*21160*0x2713a762e4688db73af409032a566f7ed8b316c8|0*21442*0x5eebbfaf24833dd780412b1f91e05209
+M/behavior=21|0|vb4|1513730207673|./../src/outMux.vhd|0*86315*0x4b4a23f06c12fe600cddfa0fe1dca6a365759c5f|0*86476*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/outmux=NSymbols/outMux 40|0|2*21311
+R=./../src/outMux.vhd|8
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavior=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
 [reg]
-A/behv=21|./../src/register.vhd|22|1*38734
-BinI32/behv=3*6874
-I=0*10693
-I/behv=0*20725
+A/behv=21|./../src/register.vhd|22|1*225328
+BinI32/behv=3*21999
+I=0*30959
+I/behv=0*79204
 M=11|0|vb4|1512517274359|./../src/register.vhd|0*3599*0xc1336143cb13d612d50c822d460a6891ad4c44ff|0*3899*0x5eebbfaf24833dd780412b1f91e05209
-M/behv=21|0|vb4|1512519012806|./../src/register.vhd|0*3975*0x4905ccf0a7b978ba7dd4e1d8b68425d8d2fb2dae|0*4284*0x856b180bf611ec746a6bfcb1befebd18
+M/behv=21|0|vb4|1513730123844|./../src/register.vhd|0*3975*0x4905ccf0a7b978ba7dd4e1d8b68425d8d2fb2dae|0*4284*0x856b180bf611ec746a6bfcb1befebd18
 NSymbols/reg=40|0|2*16131
 R=./../src/register.vhd|11
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behv=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [reg_file]
-A/behavioral=21|./../src/reg_file.vhd|21|1*35653
-BinI32/behavioral=3*6053
-I=0*11503
-I/behavioral=0*20482
+A/behavioral=21|./../src/reg_file.vhd|21|1*222247
+BinI32/behavioral=3*21178
+I=0*31769
+I/behavioral=0*78961
 M=11|0|vb4|1512517273702|./../src/reg_file.vhd|0*2473*0x113d13155017852029f2839106951ba72469ffb5|0*2940*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=21|0|vb4|1512519012672|./../src/reg_file.vhd|0*3021*0x36891fb3664d62386c66539e4cd2fdcd28907039|0*3504*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=21|0|vb4|1513730123694|./../src/reg_file.vhd|0*3021*0x36891fb3664d62386c66539e4cd2fdcd28907039|0*3504*0x856b180bf611ec746a6bfcb1befebd18
 NSymbols/reg_file=40|0|2*4154
 R=./../src/reg_file.vhd|7
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [selector]
-A/behavioral=21|./../src/selector.vhd|20|1*40603
-BinI32/behavioral=3*7527
-I=0*12194
-I/behavioral=0*20896
+A/behavioral=21|./../src/selector.vhd|20|1*227197
+BinI32/behavioral=3*22652
+I=0*32460
+I/behavioral=0*79375
 M=11|0|vb4|1512517275140|./../src/selector.vhd|0*4368*0xe11e5d30e19bf0824ad5a7c79a9191e4cb9f0138|0*4686*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=21|0|vb4|1512519012941|./../src/selector.vhd|0*4767*0x508cc81fa89fc7ef9acd9c55040dacedcf394add|0*4990*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=21|0|vb4|1513730123978|./../src/selector.vhd|0*4767*0x508cc81fa89fc7ef9acd9c55040dacedcf394add|0*4990*0x856b180bf611ec746a6bfcb1befebd18
 NSymbols/selector=40|0|2*2075
 R=./../src/selector.vhd|8
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [shifter]
-A/behavior=21|./../src/shifter.vhd|19|1*60198
-BinI32/behavior=3*9519
-I=0*12921
-I/behavior=0*25518
+A/behavior=21|./../src/shifter.vhd|19|1*242806
+BinI32/behavior=3*24291
+I=0*33187
+I/behavior=0*83196
 M=11|0|vb4|1512517847354|./../src/shifter.vhd|0*5793*0xa6c2091a251349e56e02f2a32c0d9673b6831b05|0*6153*0x5eebbfaf24833dd780412b1f91e05209
-M/behavior=21|0|vb4|1512519013454|./../src/shifter.vhd|0*6232*0xed05ffff6826274634770d50756f304f61a35941|0*6622*0x856b180bf611ec746a6bfcb1befebd18
+M/behavior=21|0|vb4|1513730124395|./../src/shifter.vhd|0*6232*0xed05ffff6826274634770d50756f304f61a35941|0*6622*0x856b180bf611ec746a6bfcb1befebd18
 R=./../src/shifter.vhd|8
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behavior=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [tribuf]
-A/behavioral=21|./../src/triSt_buf.vhd|20|1*41990
-BinI32/behavioral=3*7772
-I=0*13580
-I/behavioral=0*21143
+A/behavioral=21|./../src/triSt_buf.vhd|20|1*239670
+BinI32/behavioral=3*22897
+I=0*33846
+I/behavioral=0*82711
 M=11|0|vb4|1512517275826|./../src/triSt_buf.vhd|0*5085*0x640e1a747bb2ace67e283b2186dd6124fd86368d|0*5394*0x5eebbfaf24833dd780412b1f91e05209
-M/behavioral=21|0|vb4|1512519013066|./../src/triSt_buf.vhd|0*5474*0x8511ff4fe796925373472b1545a383a98598943f|0*5699*0x856b180bf611ec746a6bfcb1befebd18
+M/behavioral=21|0|vb4|1513730124122|./../src/triSt_buf.vhd|0*5474*0x8511ff4fe796925373472b1545a383a98598943f|0*5699*0x856b180bf611ec746a6bfcb1befebd18
 NSymbols/tribuf=NSymbols/triBuf 40|0|2*14433
 R=./../src/triSt_buf.vhd|8
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [~A]
-ModifyID=189
+ModifyID=521
 Version=73
 
 [~MFT]
-0=33|0FinalExam.mgf|25518|5982
-1=22|1FinalExam.mgf|60198|15832
-2=6|2FinalExam.mgf|16131|0
-3=23|3FinalExam.mgf|9519|5092
+0=180|0FinalExam.mgf|86565|46717
+1=80|1FinalExam.mgf|262102|61438
+2=3|2FinalExam.mgf|25107|0
+3=77|3FinalExam.mgf|28376|19063
 
 [~U]
-alu=ALU 11|0*7656||0x3
-comparator=Comparator 11|0*8360||0x3
-complt=CompLT 11|0*8903||0x3
-datapath=dataPath 11|0*14059|
-inmux=inMux 11|0*9426||0x3
-outbuf=outBuf 11|0*10112|
-reg=11|0*10480||0x3
-reg_file=11|0*11030||0x3
-selector=11|0*11978||0x3
-shifter=11|0*12677|
-tribuf=triBuf 11|0*13400||0x3
+alu=ALU 11|0*21773||0x3
+comparator=Comparator 11|0*22477||0x3
+complt=CompLT 11|0*23020||0x3
+datapath=dataPath 11|0*72989|
+dispmux=DISPMUX 11|0*35033||0x3
+finalfpga=finalFPGA 11|0*38539|
+fsm=FSM 11|0*26043|
+gpp=GPP 11|0*26775||0x3
+gpp_tb=GPP_TB 11|0*27377|
+hex_display=11|0*27698|
+inmux=inMux 11|0*28373||0x3
+instdecoder=instDecoder 11|0*29059|
+muxdisp=MUXDISP 11|0*36280||0x3
+outbuf=outBuf 11|0*29743|
+outmux=outMux 11|0*30111||0x3
+reg=11|0*30746||0x3
+reg_file=11|0*31296||0x3
+selector=11|0*32244||0x3
+shifter=11|0*32943|
+tribuf=triBuf 11|0*33666||0x3
 

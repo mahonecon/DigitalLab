@@ -1,22 +1,25 @@
--------------------------------------------------
--- Multiplexor is a device to select different
--- inputs to outputs. 
--------------------------------------------------
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-library ieee;
-use ieee.std_logic_1164.all;
+ 
 
--------------------------------------------------
+entity outMux is
 
-entity outBuf is
-port(	I: 	in std_logic_vector(7 downto 0);
-	Output:	out std_logic_vector(7 downto 0)
-);
-end outBuf;  
+    Port ( I : in std_logic_vector(7 downto 0);
+		   O : out std_logic_vector(15 downto 0));
 
--------------------------------------------------
-architecture behv1 of outBuf is
-begin
-	Output <= I;
-end behv1;
--------------------------------------------------
+end outMux;
+
+ 
+
+architecture behavior of outMux is
+ 
+begin 
+
+	O <= "00000000" & I;   -- Concatenates I to the end of O's 16-bits, to make I 16-bit.
+
+end behavior;
+
+ 

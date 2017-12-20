@@ -1,4 +1,4 @@
-timestamp=1510709486976
+timestamp=1511912114614
 
 [clk_10hz]
 A/behavioral=21|./../src/clk10hz.vhd|32|1*0
@@ -82,22 +82,22 @@ Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/bench=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [updwncounter]
-A/updwncounter=A/UpDwnCounter 24|.\..\src\UpDwnCounter.bde|10000|
+A/updwncounter=A/UpDwnCounter 24|.\..\src\UpDwnCounter.bde|10000|1*49066
 I=0*23390
-I/updwncounter=I/UpDwnCounter 0*28352
+I/updwncounter=I/UpDwnCounter 0*30433
 M=11|0|vb4|1510708190018|./../compile/UpDwnCounter.vhd|0*22798*0xe518a68cc8fc4a042b108a9c1d73df4ee4d301fd|0*23297*0x5eebbfaf24833dd780412b1f91e05209
-M/updwncounter=M/UpDwnCounter 21|0|vb4|1510709362159|./../compile/UpDwnCounter.vhd|0*26929*0x062d465237e9d75fd5755785633b77507795a14a|0*28243*0x856b180bf611ec746a6bfcb1befebd18
+M/updwncounter=M/UpDwnCounter 21|0|vb4|1511912114610|./../compile/UpDwnCounter.vhd|0*29010*0x062d465237e9d75fd5755785633b77507795a14a|0*30324*0x856b180bf611ec746a6bfcb1befebd18
 R=./../compile/UpDwnCounter.vhd|35
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/updwncounter=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [~A]
-ModifyID=123
+ModifyID=126
 Version=73
 
 [~MFT]
-0=107|0UpDownFSM.mgf|28352|13341
-1=21|1UpDownFSM.mgf|42987|11961
+0=113|0UpDownFSM.mgf|30433|15422
+1=22|1UpDownFSM.mgf|49066|11961
 2=2|2UpDownFSM.mgf|5397|0
 3=18|3UpDownFSM.mgf|6609|2413
 

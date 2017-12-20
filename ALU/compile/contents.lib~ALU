@@ -1,4 +1,4 @@
-40
+46
 ~E 1 "./../src/ALU.vhd" 8 ALU
 ~A 1 "./../src/ALU.vhd" 19 behavior
 ~E 1 "./../src/ALU_TB.vhd" 5 ALU_TB

@@ -1,43 +1,9 @@
-Active-HDL 9.3.2744.4995  2017-11-14 7:49:18 PM
+Active-HDL 9.3.2744.4995  2017-11-28 18:34:57
 
 Elaboration top modules:
-Architecture                  BENCH(UpDwnCntr_TB)
 
 
-------------------------------------------------------------------------------------------------
-Entity       | Architecture | Library   | Info | Compiler Version         | Compilation Options
-------------------------------------------------------------------------------------------------
-UpDwnCntr_TB | BENCH        | UpDownFSM |      | 9.3.2744.4995  (Windows) | -O3
-UpDwnCounter | updwncounter | updownfsm |      | 9.3.2744.4995  (Windows) | -O3
-bufg         | bufg_v       | artix7    |      | 9.3.2744.4995  (Windows) | -vendor xilinx
-clock_10hz   | behavioral   | updownfsm |      | 9.3.2744.4995  (Windows) | -O3
-UpDownCntr   | behavior     | updownfsm |      | 9.3.2744.4995  (Windows) | -O3
-------------------------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------------------------
-VHDL Package                | Library   | Info | Compiler Version         | Compilation Options
-------------------------------------------------------------------------------------------------
-standard                    | std       |      |                          | 
-TEXTIO                      | std       |      | 9.3.2744.4995  (Windows) |  -2008
-std_logic_1164              | ieee      |      | 9.3.2744.4995  (Windows) |  -2008
-std_logic_arith             | ieee      |      | 9.3.2744.4995  (Windows) | 
-STD_LOGIC_SIGNED            | ieee      |      | 9.3.2744.4995  (Windows) | 
-VITAL_Timing                | ieee      |      | 9.3.2744.4995  (Windows) | 
-NUMERIC_STD                 | ieee      |      | 9.3.2744.4995  (Windows) |  -2008
-STD_LOGIC_UNSIGNED          | ieee      |      | 9.3.2744.4995  (Windows) | 
-------------------------------------------------------------------------------------------------
-
-------------------------------------------------------------------------------------------------
-Library                     | Comment
-------------------------------------------------------------------------------------------------
-artix7                      | XILINX ISE 14.6, VIRTEX7, KINTEX7, ARTIX7, ZYNQ SCHEMATIC LIBRARY
-ieee                        | Standard IEEE packages library
-std                         | Standard VHDL library
-UpDownFSM                   | None
-------------------------------------------------------------------------------------------------
-
-
-Simulation Options: asim +access +r -advdataflow UpDwnCntr_TB
-
-
-The performance of simulation is reduced. Version EDU Edition
+----------------------------------------------------------------------------------
+Library                 | Comment
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------

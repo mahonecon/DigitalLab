@@ -432,6 +432,14 @@ timing=1
 SDF_PATH=IMPLEMENT\TIME_SIM.SDF
 TOPLEVEL=UpDwnCounter
 
+[HierarchyViewer]
+HierarchyInformation=clk_10hz|behavioral|0 updwncntr_tb|BENCH|0
+ShowHide=ShowTopLevel
+Selected=
+
+[SpecTracer]
+WindowVisible=0
+
 [Files]
 /clock10hz.vhd=-1
 /UpDownFSM.vhd=-1
@@ -459,9 +467,3 @@ timing/..\..\IMPLEMENT\TIME_SIM.SDF=-1
 [file_out:/UpDwnCounter.bde]
 /..\compile\UpDwnCounter.vhd=-1
 
-[HierarchyViewer]
-HierarchyInformation=clk_10hz|behavioral|0 updwncntr_tb|BENCH|0 
-ShowHide=ShowTopLevel
-Selected=
-[SpecTracer]
-WindowVisible=0

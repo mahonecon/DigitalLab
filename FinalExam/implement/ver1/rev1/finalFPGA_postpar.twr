@@ -1,0 +1,96 @@
+--------------------------------------------------------------------------------
+Release 14.2 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.2\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -v 3 -s 3 -n 3 -fastpaths
+finalFPGA.ncd finalFPGA.pcf -o finalFPGA_postpar.twr
+
+Design file:              finalFPGA.ncd
+Physical constraint file: finalFPGA.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (ADVANCED 1.04 2012-07-09)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clock
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+reset       |    1.296(R)|      SLOW  |    0.719(R)|      SLOW  |NET174            |   0.000|
+start       |    0.824(R)|      SLOW  |    0.350(R)|      FAST  |NET174            |   0.000|
+x<0>        |    1.328(R)|      SLOW  |    0.305(R)|      SLOW  |NET174            |   0.000|
+x<1>        |    1.538(R)|      SLOW  |    0.208(R)|      FAST  |NET174            |   0.000|
+x<2>        |    1.982(R)|      SLOW  |   -0.075(R)|      FAST  |NET174            |   0.000|
+x<3>        |    1.142(R)|      SLOW  |    0.420(R)|      SLOW  |NET174            |   0.000|
+x<4>        |    1.162(R)|      SLOW  |    0.338(R)|      FAST  |NET174            |   0.000|
+x<5>        |    1.176(R)|      SLOW  |    0.300(R)|      FAST  |NET174            |   0.000|
+x<6>        |    1.737(R)|      SLOW  |    0.165(R)|      FAST  |NET174            |   0.000|
+x<7>        |    1.033(R)|      SLOW  |    0.563(R)|      SLOW  |NET174            |   0.000|
+y<0>        |    1.457(R)|      SLOW  |    0.251(R)|      SLOW  |NET174            |   0.000|
+y<1>        |    0.974(R)|      SLOW  |    0.552(R)|      SLOW  |NET174            |   0.000|
+y<2>        |    1.132(R)|      SLOW  |    0.420(R)|      FAST  |NET174            |   0.000|
+y<3>        |    0.941(R)|      SLOW  |    0.593(R)|      SLOW  |NET174            |   0.000|
+y<4>        |    1.265(R)|      SLOW  |    0.287(R)|      FAST  |NET174            |   0.000|
+y<5>        |    0.597(R)|      SLOW  |    0.697(R)|      SLOW  |NET174            |   0.000|
+y<6>        |    1.545(R)|      SLOW  |    0.279(R)|      FAST  |NET174            |   0.000|
+y<7>        |    1.357(R)|      SLOW  |    0.358(R)|      FAST  |NET174            |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clock to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+digits<0>   |        11.265(R)|      SLOW  |         4.988(R)|      FAST  |NET174            |   0.000|
+digits<1>   |        11.495(R)|      SLOW  |         5.095(R)|      FAST  |NET174            |   0.000|
+digits<2>   |        11.079(R)|      SLOW  |         4.833(R)|      FAST  |NET174            |   0.000|
+digits<3>   |        11.166(R)|      SLOW  |         4.873(R)|      FAST  |NET174            |   0.000|
+display<0>  |        12.364(R)|      SLOW  |         4.928(R)|      FAST  |NET174            |   0.000|
+display<1>  |        12.087(R)|      SLOW  |         4.783(R)|      FAST  |NET174            |   0.000|
+display<2>  |        12.143(R)|      SLOW  |         4.851(R)|      FAST  |NET174            |   0.000|
+display<3>  |        12.324(R)|      SLOW  |         4.902(R)|      FAST  |NET174            |   0.000|
+display<4>  |        12.415(R)|      SLOW  |         4.916(R)|      FAST  |NET174            |   0.000|
+display<5>  |        12.179(R)|      SLOW  |         4.869(R)|      FAST  |NET174            |   0.000|
+display<6>  |        11.986(R)|      SLOW  |         4.703(R)|      FAST  |NET174            |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    4.290|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Tue Dec 19 19:56:05 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 633 MB
+
+
+

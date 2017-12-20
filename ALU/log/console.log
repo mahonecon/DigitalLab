@@ -1,27 +1,5 @@
-acom -O3 -work ALU -2002  $dsn/src/ALU.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\F2017_Mahoney\ALU\src\ALU.vhd
-# Compile Entity "ALU"
-# Compile Architecture "behavior" of Entity "ALU"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-acom -O3 -work ALU -2002  $dsn/src/ALU_TB.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\F2017_Mahoney\ALU\src\ALU_TB.vhd
-# Compile Entity "ALU_TB"
-# Compile Architecture "BENCH" of Entity "ALU_TB"
-# Error: COMP96_0078: ALU_TB.vhd : (63, 21): Unknown identifier "tb_port".
-# Error: COMP96_0078: ALU_TB.vhd : (65, 21): Unknown identifier "tb_port".
-# Error: COMP96_0078: ALU_TB.vhd : (63, 5): Unknown identifier "entity_port".
-# Error: COMP96_0078: ALU_TB.vhd : (65, 5): Unknown identifier "entity_port".
-# Error: COMP96_0133: ALU_TB.vhd : (63, 5): Cannot find object declaration.
-# Error: COMP96_0112: ALU_TB.vhd : (63, 5): "entity_port" does not match the formal name.
-# Error: COMP96_0207: ALU_TB.vhd : (59, 0): No actual specified for local port "a".
-# Error: COMP96_0207: ALU_TB.vhd : (59, 0): No actual specified for local port "b".
-# Error: COMP96_0207: ALU_TB.vhd : (59, 0): No actual specified for local port "m".
-# Error: COMP96_0207: ALU_TB.vhd : (59, 0): No actual specified for local port "sel".
-# Compile failure 10 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
 acom -O3 -work ALU -2002  $dsn/src/ALU_TB.vhd
 # Compile...
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
@@ -29,106 +7,9 @@ acom -O3 -work ALU -2002  $dsn/src/ALU_TB.vhd
 # Compile Entity "ALU_TB"
 # Compile Architecture "BENCH" of Entity "ALU_TB"
 # Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-asim +access +r -advdataflow ALU_TB
-# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
+# Design: 6:40 PM, Tuesday, December 05, 2017
+# Design: Opening design "c:\My_Designs\F2017_Mahoney\FinalExam\FinalExam.adf"
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5806 kB (elbread=1023 elab2=4633 kernel=149 sdf=0)
-# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\ALU\src\wave.asdb
-#  8:26 PM, Tuesday, November 28, 2017
-#  Simulation has been initialized
-#  Selected Top-Level: ALU_TB (BENCH)
-wave
-# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/ALU/src/wave.asdb'.
-wave  /ALU_TB/*
-# 5 signal(s) traced.
-run
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-endsim
-#  Simulation has been stopped
-acom -O3 -work ALU -2002  $dsn/src/ALU_TB.vhd
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\F2017_Mahoney\ALU\src\ALU_TB.vhd
-# Compile Entity "ALU_TB"
-# Compile Architecture "BENCH" of Entity "ALU_TB"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-asim +access +r -advdataflow ALU_TB
-# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5806 kB (elbread=1023 elab2=4633 kernel=149 sdf=0)
-# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\ALU\src\wave.asdb
-#  8:29 PM, Tuesday, November 28, 2017
-#  Simulation has been initialized
-#  Selected Top-Level: ALU_TB (BENCH)
-# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/ALU/src/wave.asdb'.
-wave
-# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/ALU/src/wave.asdb'.
-wave  /ALU_TB/*
-# 5 signal(s) traced.
-run
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-acom  -work ALU "$dsn\src\ALU_TB.vhd"
-# Compile...
-# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: c:\My_Designs\F2017_Mahoney\ALU\src\ALU_TB.vhd
-# Compile Entity "ALU_TB"
-# Compile Architecture "BENCH" of Entity "ALU_TB"
-# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
-asim +access +r -advdataflow ALU_TB
-# Warning: Verilog Optimization cannot be used when -advdataflow is in effect. Verilog Optimization disabled.
-#  Simulation has been stopped
-# ELBREAD: Elaboration process.
-# ELBREAD: Elaboration time 0.0 [s].
-# asim: Stack memory: 32MB
-# asim: Retval memory: 32MB
-# 
-# KERNEL: Main thread initiated.
-# KERNEL: Kernel process initialization phase.
-# KERNEL: Time resolution set to 1ps.
-# ELAB2: Elaboration final pass...
-# ELAB2: Create instances ...
-# ELAB2: Create instances complete.
-# ELAB2: Elaboration final pass complete - time: 0.0 [s].
-# KERNEL: Warning: You are using the Active-HDL EDU Edition. The performance of simulation is running at a reduced rate.
-# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
-# KERNEL: Kernel process initialization done.
-# Allocation: Simulator allocated 5806 kB (elbread=1023 elab2=4633 kernel=149 sdf=0)
-# KERNEL: ASDB file was created in location c:\My_Designs\F2017_Mahoney\ALU\src\wave.asdb
-#  8:30 PM, Tuesday, November 28, 2017
-#  Simulation has been initialized
-#  Selected Top-Level: ALU_TB (BENCH)
-wave
-# Waveform file 'untitled.awc' connected to 'c:/My_Designs/F2017_Mahoney/ALU/src/wave.asdb'.
-wave  /ALU_TB/*
-# 5 signal(s) traced.
-run
-# KERNEL: Simulation has finished. There are no more test vectors to simulate.
-#  Simulation has been stopped
+# Design: Design "FinalExam" has been set as active.
+# Design Explorer: Shortcut to "c:\My_Designs\F2017_Mahoney\F2017_Mahoney.aws" design added.

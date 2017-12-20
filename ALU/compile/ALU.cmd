@@ -1,1 +1,1 @@
--w -s "c:\My_Designs\F2017_Mahoney\library.cfg"  -j "c:\My_Designs\F2017_Mahoney\ALU\projlib.cfg"  -d "c:\My_Designs\F2017_Mahoney\ALU\compile"   -work ALU  -O3 -e 100 "c:\My_Designs\F2017_Mahoney\ALU\src\ALU_TB.vhd"
+-w -s "c:\My_Designs\F2017_Mahoney\library.cfg"  -j "c:\My_Designs\F2017_Mahoney\ALU\projlib.cfg"  -d "c:\My_Designs\F2017_Mahoney\ALU\compile"   -work ALU  -O3 -e 100 -2002 "c:\My_Designs\F2017_Mahoney\ALU\src\ALU_TB.vhd"

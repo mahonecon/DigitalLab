@@ -224,7 +224,7 @@ I 000046 55 1588          1511918993367 BENCH
 	(_model . BENCH 1 -1
 	)
 )
-V 000046 55 1588          1511919058539 BENCH
+I 000046 55 1588          1511919058539 BENCH
 (_unit VHDL (alu_tb 0 5 (bench 0 9 ))
 	(_version vb4)
 	(_time 1511919058540 2017.11.28 20:30:58)
@@ -263,6 +263,53 @@ V 000046 55 1588          1511919058539 BENCH
 	(_static
 		(33686018 50528770 )
 		(33686018 33751554 )
+		(514 )
+		(770 )
+		(515 )
+		(771 )
+	)
+	(_model . BENCH 1 -1
+	)
+)
+V 000046 55 1588          1512516745773 BENCH
+(_unit VHDL (alu_tb 0 5 (bench 0 9 ))
+	(_version vb4)
+	(_time 1512516745774 2017.12.05 18:32:25)
+	(_source (\./../src/ALU_TB.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164)))
+	(_code 59095f5a030f084c0b0c4d030a5f585f0a5e5c5c0f)
+	(_entity
+		(_time 1511915405894)
+		(_use (std(standard))(ieee(std_logic_1164)))
+	)
+	(_instantiation UUT 0 60 (_entity . ALU behavior)
+		(_port
+			((a)(a))
+			((b)(b))
+			((m)(m))
+			((sel)(sel))
+			((output)(output))
+		)
+	)
+	(_object
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 13 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal a ~STD_LOGIC_VECTOR{7~downto~0}~13 0 13 (_architecture (_uni ))))
+		(_signal (_internal b ~STD_LOGIC_VECTOR{7~downto~0}~13 0 14 (_architecture (_uni ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{1~downto~0}~13 0 15 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 1)(i 0))))))
+		(_signal (_internal sel ~STD_LOGIC_VECTOR{1~downto~0}~13 0 15 (_architecture (_uni ))))
+		(_signal (_internal m ~extieee.std_logic_1164.STD_LOGIC 0 16 (_architecture (_uni ))))
+		(_signal (_internal output ~STD_LOGIC_VECTOR{7~downto~0}~13 0 21 (_architecture (_uni ))))
+		(_process
+			(line__25(_architecture 0 0 25 (_process (_wait_for)(_target(0)(1)(2)(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+	)
+	(_static
+		(33686018 50528770 )
+		(33686018 50463234 )
 		(514 )
 		(770 )
 		(515 )

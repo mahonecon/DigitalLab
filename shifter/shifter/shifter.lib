@@ -1,4 +1,4 @@
-timestamp=1511917957266
+timestamp=1512518070347
 
 [shifter]
 A/behavior=21|./../src/shifter.vhd|19|1*28540
@@ -7,6 +7,7 @@ I=0*4559
 I/behavior=0*11119
 M=11|0|vb4|1511914951538|./../src/shifter.vhd|0*4120*0xa6c2091a251349e56e02f2a32c0d9673b6831b05|0*4480*0x5eebbfaf24833dd780412b1f91e05209
 M/behavior=21|0|vb4|1511917344090|./../src/shifter.vhd|0*10638*0xed05ffff6826274634770d50756f304f61a35941|0*11028*0x856b180bf611ec746a6bfcb1befebd18
+NSymbols/shifter=40|0|2*0
 R=./../src/shifter.vhd|8
 Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/behavior=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
@@ -23,15 +24,16 @@ Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 Version/bench=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
 
 [~A]
-ModifyID=129
+ModifyID=131
 Version=73
 
 [~MFT]
 0=117|0shifter.mgf|14646|11900
 1=37|1shifter.mgf|35206|33596
+2=0|2shifter.mgf|0|0
 3=23|3shifter.mgf|4209|3544
 
 [~U]
-shifter=11|0*3876|
+shifter=11|0*3876||0x3
 shifter_tb=shifter_TB 11|0*5638|
 
